@@ -8,3 +8,3172 @@
 骨干网络：vit_large_patch16_dinov3.lvd1689m
 ================================================================================
 
+================================================================================
+Epoch 1 训练报告
+================================================================================
+学习率：0.000020
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 2.8176
+准确率 (Accuracy): 31.21%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 1.7954
+准确率 (Accuracy): 54.21%
+精确率 - Macro: 44.03%
+召回率 - Macro: 40.57%
+F1 分数 - Macro: 35.65%
+精确率 - Weighted: 50.99%
+召回率 - Weighted: 54.21%
+F1 分数 - Weighted: 46.86%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 62.0
+  Apple__healthy:
+    Precision: 60.43%, Recall: 68.90%, F1-Score: 64.39%, Support: 164.0
+  Apple__rust:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Apple__scab:
+    Precision: 33.33%, Recall: 2.86%, F1-Score: 5.26%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Cassava__healthy:
+    Precision: 9.52%, Recall: 2.99%, F1-Score: 4.55%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Cherry__healthy:
+    Precision: 52.78%, Recall: 84.44%, F1-Score: 64.96%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 73.47%, Recall: 34.29%, F1-Score: 46.75%, Support: 105.0
+  Chili__healthy:
+    Precision: 100.00%, Recall: 2.00%, F1-Score: 3.92%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Chili__whitefly:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Chili__yellowish:
+    Precision: 16.67%, Recall: 2.00%, F1-Score: 3.57%, Support: 50.0
+  Corn__common_rust:
+    Precision: 76.28%, Recall: 91.54%, F1-Score: 83.22%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 54.33%, Recall: 63.30%, F1-Score: 58.47%, Support: 109.0
+  Corn__healthy:
+    Precision: 45.85%, Recall: 100.00%, F1-Score: 62.87%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 66.07%, Recall: 60.66%, F1-Score: 63.25%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 83.33%, Recall: 10.00%, F1-Score: 17.86%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 75.00%, Recall: 6.00%, F1-Score: 11.11%, Support: 50.0
+  Grape__black_measles:
+    Precision: 54.13%, Recall: 85.51%, F1-Score: 66.29%, Support: 138.0
+  Grape__black_rot:
+    Precision: 44.08%, Recall: 80.00%, F1-Score: 56.84%, Support: 200.0
+  Grape__healthy:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 66.67%, Recall: 52.27%, F1-Score: 58.60%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 43.64%, Recall: 96.00%, F1-Score: 60.00%, Support: 50.0
+  Potato__early_blight:
+    Precision: 50.76%, Recall: 61.47%, F1-Score: 55.60%, Support: 109.0
+  Potato__healthy:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Potato__late_blight:
+    Precision: 66.67%, Recall: 1.83%, F1-Score: 3.57%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 29.12%, Recall: 53.00%, F1-Score: 37.59%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 50.85%, Recall: 90.00%, F1-Score: 64.98%, Support: 200.0
+  Soybean__healthy:
+    Precision: 56.94%, Recall: 82.00%, F1-Score: 67.21%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 54.66%, Recall: 80.00%, F1-Score: 64.94%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 63.64%, Recall: 14.00%, F1-Score: 22.95%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 85.71%, Recall: 12.00%, F1-Score: 21.05%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 62.50%, Recall: 90.00%, F1-Score: 73.77%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 73.94%, Recall: 69.50%, F1-Score: 71.65%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 100.00%, Recall: 2.00%, F1-Score: 3.92%, Support: 100.0
+  Tomato__healthy:
+    Precision: 90.80%, Recall: 93.08%, F1-Score: 91.93%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 80.49%, Recall: 34.55%, F1-Score: 48.35%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 71.79%, Recall: 29.47%, F1-Score: 41.79%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 84.62%, Recall: 22.00%, F1-Score: 34.92%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 43.37%, Recall: 67.98%, F1-Score: 52.95%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 49.22%, Recall: 75.45%, F1-Score: 59.57%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 44.62%, Recall: 82.86%, F1-Score: 58.00%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 79.31%, Recall: 92.00%, F1-Score: 85.19%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 49.32%, Recall: 80.22%, F1-Score: 61.09%, Support: 91.0
+  Wheat__healthy:
+    Precision: 37.55%, Recall: 72.95%, F1-Score: 49.58%, Support: 122.0
+  Wheat__septoria:
+    Precision: 83.33%, Recall: 100.00%, F1-Score: 90.91%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 56.71%, Recall: 82.30%, F1-Score: 67.15%, Support: 113.0
+  macro avg:
+    Precision: 44.03%, Recall: 40.57%, F1-Score: 35.65%, Support: 5350.0
+  weighted avg:
+    Precision: 50.99%, Recall: 54.21%, F1-Score: 46.86%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 1.8109
+准确率 (Accuracy): 53.82%
+精确率 - Macro: 45.59%
+召回率 - Macro: 40.17%
+F1 分数 - Macro: 35.25%
+精确率 - Weighted: 52.50%
+召回率 - Weighted: 53.82%
+F1 分数 - Weighted: 46.60%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 2 训练报告
+================================================================================
+学习率：0.000040
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 1.5656
+准确率 (Accuracy): 58.97%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.9472
+准确率 (Accuracy): 74.67%
+精确率 - Macro: 68.34%
+召回率 - Macro: 66.63%
+F1 分数 - Macro: 65.39%
+精确率 - Weighted: 74.17%
+召回率 - Weighted: 74.67%
+F1 分数 - Weighted: 73.06%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 66.67%, Recall: 74.19%, F1-Score: 70.23%, Support: 62.0
+  Apple__healthy:
+    Precision: 83.33%, Recall: 85.37%, F1-Score: 84.34%, Support: 164.0
+  Apple__rust:
+    Precision: 77.42%, Recall: 48.00%, F1-Score: 59.26%, Support: 50.0
+  Apple__scab:
+    Precision: 54.55%, Recall: 42.86%, F1-Score: 48.00%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 16.67%, Recall: 2.00%, F1-Score: 3.57%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 27.45%, Recall: 25.45%, F1-Score: 26.42%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 21.21%, Recall: 14.00%, F1-Score: 16.87%, Support: 50.0
+  Cassava__healthy:
+    Precision: 18.57%, Recall: 38.81%, F1-Score: 25.12%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 16.67%, Recall: 2.00%, F1-Score: 3.57%, Support: 50.0
+  Cherry__healthy:
+    Precision: 57.43%, Recall: 94.44%, F1-Score: 71.43%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 79.83%, Recall: 90.48%, F1-Score: 84.82%, Support: 105.0
+  Chili__healthy:
+    Precision: 32.56%, Recall: 56.00%, F1-Score: 41.18%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 0.00%, Recall: 0.00%, F1-Score: 0.00%, Support: 50.0
+  Chili__whitefly:
+    Precision: 100.00%, Recall: 6.00%, F1-Score: 11.32%, Support: 50.0
+  Chili__yellowish:
+    Precision: 54.76%, Recall: 46.00%, F1-Score: 50.00%, Support: 50.0
+  Corn__common_rust:
+    Precision: 97.56%, Recall: 92.31%, F1-Score: 94.86%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 71.88%, Recall: 84.40%, F1-Score: 77.64%, Support: 109.0
+  Corn__healthy:
+    Precision: 91.34%, Recall: 100.00%, F1-Score: 95.47%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 78.00%, Recall: 63.93%, F1-Score: 70.27%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 76.92%, Recall: 60.00%, F1-Score: 67.42%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 59.21%, Recall: 90.00%, F1-Score: 71.43%, Support: 50.0
+  Grape__black_measles:
+    Precision: 88.28%, Recall: 92.75%, F1-Score: 90.46%, Support: 138.0
+  Grape__black_rot:
+    Precision: 77.73%, Recall: 96.00%, F1-Score: 85.91%, Support: 200.0
+  Grape__healthy:
+    Precision: 90.91%, Recall: 40.00%, F1-Score: 55.56%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 65.42%, Recall: 79.55%, F1-Score: 71.79%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 76.74%, Recall: 66.00%, F1-Score: 70.97%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 70.18%, Recall: 80.00%, F1-Score: 74.77%, Support: 50.0
+  Potato__early_blight:
+    Precision: 81.25%, Recall: 83.49%, F1-Score: 82.35%, Support: 109.0
+  Potato__healthy:
+    Precision: 65.79%, Recall: 50.00%, F1-Score: 56.82%, Support: 50.0
+  Potato__late_blight:
+    Precision: 62.18%, Recall: 67.89%, F1-Score: 64.91%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 57.24%, Recall: 85.00%, F1-Score: 68.41%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 84.62%, Recall: 77.00%, F1-Score: 80.63%, Support: 200.0
+  Soybean__healthy:
+    Precision: 84.88%, Recall: 73.00%, F1-Score: 78.49%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 95.05%, Recall: 87.27%, F1-Score: 91.00%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 95.35%, Recall: 82.00%, F1-Score: 88.17%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 55.84%, Recall: 86.00%, F1-Score: 67.72%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 59.09%, Recall: 52.00%, F1-Score: 55.32%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 57.89%, Recall: 22.00%, F1-Score: 31.88%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 68.18%, Recall: 90.00%, F1-Score: 77.59%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 79.17%, Recall: 76.00%, F1-Score: 77.55%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 86.73%, Recall: 91.50%, F1-Score: 89.05%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 79.63%, Recall: 43.00%, F1-Score: 55.84%, Support: 100.0
+  Tomato__healthy:
+    Precision: 96.82%, Recall: 95.60%, F1-Score: 96.20%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 75.52%, Recall: 75.92%, F1-Score: 75.72%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 84.00%, Recall: 66.32%, F1-Score: 74.12%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 82.46%, Recall: 94.00%, F1-Score: 87.85%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 78.77%, Recall: 79.21%, F1-Score: 78.99%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 77.37%, Recall: 88.02%, F1-Score: 82.35%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 80.77%, Recall: 75.00%, F1-Score: 77.78%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 93.20%, Recall: 96.00%, F1-Score: 94.58%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 77.45%, Recall: 86.81%, F1-Score: 81.87%, Support: 91.0
+  Wheat__healthy:
+    Precision: 75.71%, Recall: 86.89%, F1-Score: 80.92%, Support: 122.0
+  Wheat__septoria:
+    Precision: 84.75%, Recall: 100.00%, F1-Score: 91.74%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 87.96%, Recall: 84.07%, F1-Score: 85.97%, Support: 113.0
+  macro avg:
+    Precision: 68.34%, Recall: 66.63%, F1-Score: 65.39%, Support: 5350.0
+  weighted avg:
+    Precision: 74.17%, Recall: 74.67%, F1-Score: 73.06%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.9669
+准确率 (Accuracy): 74.35%
+精确率 - Macro: 68.04%
+召回率 - Macro: 66.26%
+F1 分数 - Macro: 65.11%
+精确率 - Weighted: 74.21%
+召回率 - Weighted: 74.35%
+F1 分数 - Weighted: 72.85%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 3 训练报告
+================================================================================
+学习率：0.000060
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.9962
+准确率 (Accuracy): 72.29%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.6882
+准确率 (Accuracy): 79.48%
+精确率 - Macro: 74.23%
+召回率 - Macro: 74.19%
+F1 分数 - Macro: 72.61%
+精确率 - Weighted: 79.91%
+召回率 - Weighted: 79.48%
+F1 分数 - Weighted: 78.71%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 74.68%, Recall: 95.16%, F1-Score: 83.69%, Support: 62.0
+  Apple__healthy:
+    Precision: 81.22%, Recall: 97.56%, F1-Score: 88.64%, Support: 164.0
+  Apple__rust:
+    Precision: 97.30%, Recall: 72.00%, F1-Score: 82.76%, Support: 50.0
+  Apple__scab:
+    Precision: 86.27%, Recall: 62.86%, F1-Score: 72.73%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 12.50%, Recall: 6.00%, F1-Score: 8.11%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 30.77%, Recall: 36.36%, F1-Score: 33.33%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 25.30%, Recall: 42.00%, F1-Score: 31.58%, Support: 50.0
+  Cassava__healthy:
+    Precision: 28.74%, Recall: 37.31%, F1-Score: 32.47%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 15.38%, Recall: 4.00%, F1-Score: 6.35%, Support: 50.0
+  Cherry__healthy:
+    Precision: 97.47%, Recall: 85.56%, F1-Score: 91.12%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 97.85%, Recall: 86.67%, F1-Score: 91.92%, Support: 105.0
+  Chili__healthy:
+    Precision: 44.59%, Recall: 66.00%, F1-Score: 53.23%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 16.67%, Recall: 2.00%, F1-Score: 3.57%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 66.67%, Recall: 16.00%, F1-Score: 25.81%, Support: 50.0
+  Chili__whitefly:
+    Precision: 50.00%, Recall: 16.00%, F1-Score: 24.24%, Support: 50.0
+  Chili__yellowish:
+    Precision: 41.90%, Recall: 88.00%, F1-Score: 56.77%, Support: 50.0
+  Corn__common_rust:
+    Precision: 96.06%, Recall: 93.85%, F1-Score: 94.94%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 79.84%, Recall: 90.83%, F1-Score: 84.98%, Support: 109.0
+  Corn__healthy:
+    Precision: 95.00%, Recall: 98.28%, F1-Score: 96.61%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 81.37%, Recall: 68.03%, F1-Score: 74.11%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 72.88%, Recall: 86.00%, F1-Score: 78.90%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 58.97%, Recall: 92.00%, F1-Score: 71.88%, Support: 50.0
+  Grape__black_measles:
+    Precision: 82.14%, Recall: 100.00%, F1-Score: 90.20%, Support: 138.0
+  Grape__black_rot:
+    Precision: 81.73%, Recall: 85.00%, F1-Score: 83.33%, Support: 200.0
+  Grape__healthy:
+    Precision: 96.00%, Recall: 48.00%, F1-Score: 64.00%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 85.71%, Recall: 88.64%, F1-Score: 87.15%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 73.44%, Recall: 94.00%, F1-Score: 82.46%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 91.43%, Recall: 64.00%, F1-Score: 75.29%, Support: 50.0
+  Potato__early_blight:
+    Precision: 83.19%, Recall: 90.83%, F1-Score: 86.84%, Support: 109.0
+  Potato__healthy:
+    Precision: 72.09%, Recall: 62.00%, F1-Score: 66.67%, Support: 50.0
+  Potato__late_blight:
+    Precision: 82.41%, Recall: 81.65%, F1-Score: 82.03%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 70.37%, Recall: 76.00%, F1-Score: 73.08%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 85.16%, Recall: 77.50%, F1-Score: 81.15%, Support: 200.0
+  Soybean__healthy:
+    Precision: 85.95%, Recall: 79.50%, F1-Score: 82.60%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 93.81%, Recall: 96.36%, F1-Score: 95.07%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 87.27%, Recall: 96.00%, F1-Score: 91.43%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 56.96%, Recall: 90.00%, F1-Score: 69.77%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 58.73%, Recall: 74.00%, F1-Score: 65.49%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 68.75%, Recall: 44.00%, F1-Score: 53.66%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 82.76%, Recall: 96.00%, F1-Score: 88.89%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 86.00%, Recall: 86.00%, F1-Score: 86.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 98.16%, Recall: 80.00%, F1-Score: 88.15%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 87.84%, Recall: 65.00%, F1-Score: 74.71%, Support: 100.0
+  Tomato__healthy:
+    Precision: 84.04%, Recall: 99.37%, F1-Score: 91.07%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 92.90%, Recall: 82.20%, F1-Score: 87.22%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 90.32%, Recall: 88.42%, F1-Score: 89.36%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 76.19%, Recall: 96.00%, F1-Score: 84.96%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 92.26%, Recall: 80.34%, F1-Score: 85.89%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 90.45%, Recall: 85.03%, F1-Score: 87.65%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 70.86%, Recall: 76.43%, F1-Score: 73.54%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 94.15%, Recall: 96.50%, F1-Score: 95.31%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 87.06%, Recall: 81.32%, F1-Score: 84.09%, Support: 91.0
+  Wheat__healthy:
+    Precision: 82.58%, Recall: 89.34%, F1-Score: 85.83%, Support: 122.0
+  Wheat__septoria:
+    Precision: 83.33%, Recall: 100.00%, F1-Score: 90.91%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 76.92%, Recall: 88.50%, F1-Score: 82.30%, Support: 113.0
+  macro avg:
+    Precision: 74.23%, Recall: 74.19%, F1-Score: 72.61%, Support: 5350.0
+  weighted avg:
+    Precision: 79.91%, Recall: 79.48%, F1-Score: 78.71%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.6878
+准确率 (Accuracy): 79.73%
+精确率 - Macro: 75.81%
+召回率 - Macro: 74.67%
+F1 分数 - Macro: 73.33%
+精确率 - Weighted: 80.67%
+召回率 - Weighted: 79.73%
+F1 分数 - Weighted: 79.08%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 4 训练报告
+================================================================================
+学习率：0.000080
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.7384
+准确率 (Accuracy): 78.33%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.5032
+准确率 (Accuracy): 84.37%
+精确率 - Macro: 80.73%
+召回率 - Macro: 79.20%
+F1 分数 - Macro: 78.57%
+精确率 - Weighted: 84.92%
+召回率 - Weighted: 84.37%
+F1 分数 - Weighted: 83.77%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 100.00%, Recall: 82.26%, F1-Score: 90.27%, Support: 62.0
+  Apple__healthy:
+    Precision: 90.06%, Recall: 93.90%, F1-Score: 91.94%, Support: 164.0
+  Apple__rust:
+    Precision: 100.00%, Recall: 76.00%, F1-Score: 86.36%, Support: 50.0
+  Apple__scab:
+    Precision: 90.00%, Recall: 64.29%, F1-Score: 75.00%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 56.67%, Recall: 34.00%, F1-Score: 42.50%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 66.67%, Recall: 18.18%, F1-Score: 28.57%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 35.85%, Recall: 38.00%, F1-Score: 36.89%, Support: 50.0
+  Cassava__healthy:
+    Precision: 45.45%, Recall: 37.31%, F1-Score: 40.98%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 38.00%, Recall: 38.00%, F1-Score: 38.00%, Support: 50.0
+  Cherry__healthy:
+    Precision: 100.00%, Recall: 92.22%, F1-Score: 95.95%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 96.26%, Recall: 98.10%, F1-Score: 97.17%, Support: 105.0
+  Chili__healthy:
+    Precision: 46.97%, Recall: 62.00%, F1-Score: 53.45%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 35.09%, Recall: 40.00%, F1-Score: 37.38%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 42.86%, Recall: 18.00%, F1-Score: 25.35%, Support: 50.0
+  Chili__whitefly:
+    Precision: 64.52%, Recall: 40.00%, F1-Score: 49.38%, Support: 50.0
+  Chili__yellowish:
+    Precision: 57.33%, Recall: 86.00%, F1-Score: 68.80%, Support: 50.0
+  Corn__common_rust:
+    Precision: 96.83%, Recall: 93.85%, F1-Score: 95.31%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 83.33%, Recall: 91.74%, F1-Score: 87.34%, Support: 109.0
+  Corn__healthy:
+    Precision: 86.57%, Recall: 100.00%, F1-Score: 92.80%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 82.14%, Recall: 75.41%, F1-Score: 78.63%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 83.02%, Recall: 88.00%, F1-Score: 85.44%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 77.97%, Recall: 92.00%, F1-Score: 84.40%, Support: 50.0
+  Grape__black_measles:
+    Precision: 94.52%, Recall: 100.00%, F1-Score: 97.18%, Support: 138.0
+  Grape__black_rot:
+    Precision: 95.88%, Recall: 93.00%, F1-Score: 94.42%, Support: 200.0
+  Grape__healthy:
+    Precision: 76.47%, Recall: 78.00%, F1-Score: 77.23%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 85.11%, Recall: 90.91%, F1-Score: 87.91%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 100.00%, Recall: 22.00%, F1-Score: 36.07%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 55.68%, Recall: 98.00%, F1-Score: 71.01%, Support: 50.0
+  Potato__early_blight:
+    Precision: 90.00%, Recall: 90.83%, F1-Score: 90.41%, Support: 109.0
+  Potato__healthy:
+    Precision: 86.96%, Recall: 80.00%, F1-Score: 83.33%, Support: 50.0
+  Potato__late_blight:
+    Precision: 80.80%, Recall: 92.66%, F1-Score: 86.32%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 67.39%, Recall: 93.00%, F1-Score: 78.15%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 92.81%, Recall: 77.50%, F1-Score: 84.47%, Support: 200.0
+  Soybean__healthy:
+    Precision: 90.00%, Recall: 81.00%, F1-Score: 85.26%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 96.40%, Recall: 97.27%, F1-Score: 96.83%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 75.81%, Recall: 94.00%, F1-Score: 83.93%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 73.02%, Recall: 92.00%, F1-Score: 81.42%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 76.74%, Recall: 66.00%, F1-Score: 70.97%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 77.42%, Recall: 96.00%, F1-Score: 85.71%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 95.56%, Recall: 86.00%, F1-Score: 90.53%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 95.50%, Recall: 95.50%, F1-Score: 95.50%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 87.67%, Recall: 64.00%, F1-Score: 73.99%, Support: 100.0
+  Tomato__healthy:
+    Precision: 95.18%, Recall: 99.37%, F1-Score: 97.23%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 87.63%, Recall: 85.34%, F1-Score: 86.47%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 94.79%, Recall: 95.79%, F1-Score: 95.29%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 85.71%, Recall: 96.00%, F1-Score: 90.57%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 94.67%, Recall: 89.89%, F1-Score: 92.22%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 87.71%, Recall: 94.01%, F1-Score: 90.75%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 84.72%, Recall: 87.14%, F1-Score: 85.92%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 97.00%, Recall: 97.00%, F1-Score: 97.00%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 82.11%, Recall: 85.71%, F1-Score: 83.87%, Support: 91.0
+  Wheat__healthy:
+    Precision: 89.17%, Recall: 87.70%, F1-Score: 88.43%, Support: 122.0
+  Wheat__septoria:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 79.55%, Recall: 92.92%, F1-Score: 85.71%, Support: 113.0
+  macro avg:
+    Precision: 80.73%, Recall: 79.20%, F1-Score: 78.57%, Support: 5350.0
+  weighted avg:
+    Precision: 84.92%, Recall: 84.37%, F1-Score: 83.77%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.5040
+准确率 (Accuracy): 84.13%
+精确率 - Macro: 80.43%
+召回率 - Macro: 79.07%
+F1 分数 - Macro: 78.57%
+精确率 - Weighted: 84.51%
+召回率 - Weighted: 84.13%
+F1 分数 - Weighted: 83.52%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 5 训练报告
+================================================================================
+学习率：0.000100
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.6070
+准确率 (Accuracy): 81.46%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.4361
+准确率 (Accuracy): 86.13%
+精确率 - Macro: 83.32%
+召回率 - Macro: 82.54%
+F1 分数 - Macro: 82.40%
+精确率 - Weighted: 86.85%
+召回率 - Weighted: 86.13%
+F1 分数 - Weighted: 86.14%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 98.33%, Recall: 95.16%, F1-Score: 96.72%, Support: 62.0
+  Apple__healthy:
+    Precision: 92.98%, Recall: 96.95%, F1-Score: 94.93%, Support: 164.0
+  Apple__rust:
+    Precision: 97.44%, Recall: 76.00%, F1-Score: 85.39%, Support: 50.0
+  Apple__scab:
+    Precision: 87.30%, Recall: 78.57%, F1-Score: 82.71%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 53.49%, Recall: 46.00%, F1-Score: 49.46%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 47.50%, Recall: 34.55%, F1-Score: 40.00%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 40.00%, Recall: 52.00%, F1-Score: 45.22%, Support: 50.0
+  Cassava__healthy:
+    Precision: 37.31%, Recall: 37.31%, F1-Score: 37.31%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 39.71%, Recall: 54.00%, F1-Score: 45.76%, Support: 50.0
+  Cherry__healthy:
+    Precision: 100.00%, Recall: 75.56%, F1-Score: 86.08%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 99.04%, Recall: 98.10%, F1-Score: 98.56%, Support: 105.0
+  Chili__healthy:
+    Precision: 60.61%, Recall: 80.00%, F1-Score: 68.97%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 73.33%, Recall: 44.00%, F1-Score: 55.00%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 44.44%, Recall: 40.00%, F1-Score: 42.11%, Support: 50.0
+  Chili__whitefly:
+    Precision: 51.72%, Recall: 60.00%, F1-Score: 55.56%, Support: 50.0
+  Chili__yellowish:
+    Precision: 60.56%, Recall: 86.00%, F1-Score: 71.07%, Support: 50.0
+  Corn__common_rust:
+    Precision: 94.57%, Recall: 93.85%, F1-Score: 94.21%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 83.61%, Recall: 93.58%, F1-Score: 88.31%, Support: 109.0
+  Corn__healthy:
+    Precision: 96.67%, Recall: 100.00%, F1-Score: 98.31%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 87.88%, Recall: 71.31%, F1-Score: 78.73%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 85.37%, Recall: 70.00%, F1-Score: 76.92%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 63.89%, Recall: 92.00%, F1-Score: 75.41%, Support: 50.0
+  Grape__black_measles:
+    Precision: 97.83%, Recall: 97.83%, F1-Score: 97.83%, Support: 138.0
+  Grape__black_rot:
+    Precision: 97.92%, Recall: 94.00%, F1-Score: 95.92%, Support: 200.0
+  Grape__healthy:
+    Precision: 100.00%, Recall: 68.00%, F1-Score: 80.95%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 94.38%, Recall: 95.45%, F1-Score: 94.92%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 93.18%, Recall: 82.00%, F1-Score: 87.23%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 83.93%, Recall: 94.00%, F1-Score: 88.68%, Support: 50.0
+  Potato__early_blight:
+    Precision: 88.39%, Recall: 90.83%, F1-Score: 89.59%, Support: 109.0
+  Potato__healthy:
+    Precision: 90.24%, Recall: 74.00%, F1-Score: 81.32%, Support: 50.0
+  Potato__late_blight:
+    Precision: 90.09%, Recall: 91.74%, F1-Score: 90.91%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 74.67%, Recall: 85.50%, F1-Score: 79.72%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 89.66%, Recall: 78.00%, F1-Score: 83.42%, Support: 200.0
+  Soybean__healthy:
+    Precision: 81.99%, Recall: 86.50%, F1-Score: 84.18%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 95.61%, Recall: 99.09%, F1-Score: 97.32%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 96.15%, Recall: 100.00%, F1-Score: 98.04%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 70.15%, Recall: 94.00%, F1-Score: 80.34%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 95.45%, Recall: 84.00%, F1-Score: 89.36%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 90.00%, Recall: 72.00%, F1-Score: 80.00%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 92.45%, Recall: 98.00%, F1-Score: 95.15%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 95.96%, Recall: 95.00%, F1-Score: 95.48%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 83.33%, Recall: 75.00%, F1-Score: 78.95%, Support: 100.0
+  Tomato__healthy:
+    Precision: 87.78%, Recall: 99.37%, F1-Score: 93.22%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 91.06%, Recall: 85.34%, F1-Score: 88.11%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 92.93%, Recall: 96.84%, F1-Score: 94.85%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 85.71%, Recall: 96.00%, F1-Score: 90.57%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 98.10%, Recall: 87.08%, F1-Score: 92.26%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 91.86%, Recall: 94.61%, F1-Score: 93.22%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 82.98%, Recall: 83.57%, F1-Score: 83.27%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 98.98%, Recall: 97.50%, F1-Score: 98.24%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 84.38%, Recall: 89.01%, F1-Score: 86.63%, Support: 91.0
+  Wheat__healthy:
+    Precision: 92.98%, Recall: 86.89%, F1-Score: 89.83%, Support: 122.0
+  Wheat__septoria:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 86.40%, Recall: 95.58%, F1-Score: 90.76%, Support: 113.0
+  macro avg:
+    Precision: 83.32%, Recall: 82.54%, F1-Score: 82.40%, Support: 5350.0
+  weighted avg:
+    Precision: 86.85%, Recall: 86.13%, F1-Score: 86.14%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.4396
+准确率 (Accuracy): 85.93%
+精确率 - Macro: 82.96%
+召回率 - Macro: 82.51%
+F1 分数 - Macro: 82.16%
+精确率 - Weighted: 86.63%
+召回率 - Weighted: 85.93%
+F1 分数 - Weighted: 85.88%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 6 训练报告
+================================================================================
+学习率：0.000100
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.4956
+准确率 (Accuracy): 84.52%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.4010
+准确率 (Accuracy): 87.57%
+精确率 - Macro: 84.65%
+召回率 - Macro: 84.23%
+F1 分数 - Macro: 83.53%
+精确率 - Weighted: 88.20%
+召回率 - Weighted: 87.57%
+F1 分数 - Weighted: 87.36%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 95.24%, Recall: 96.77%, F1-Score: 96.00%, Support: 62.0
+  Apple__healthy:
+    Precision: 97.58%, Recall: 98.17%, F1-Score: 97.87%, Support: 164.0
+  Apple__rust:
+    Precision: 97.62%, Recall: 82.00%, F1-Score: 89.13%, Support: 50.0
+  Apple__scab:
+    Precision: 91.53%, Recall: 77.14%, F1-Score: 83.72%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 47.50%, Recall: 38.00%, F1-Score: 42.22%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 66.67%, Recall: 10.91%, F1-Score: 18.75%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 37.25%, Recall: 38.00%, F1-Score: 37.62%, Support: 50.0
+  Cassava__healthy:
+    Precision: 48.00%, Recall: 35.82%, F1-Score: 41.03%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 33.73%, Recall: 56.00%, F1-Score: 42.11%, Support: 50.0
+  Cherry__healthy:
+    Precision: 98.82%, Recall: 93.33%, F1-Score: 96.00%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 99.03%, Recall: 97.14%, F1-Score: 98.08%, Support: 105.0
+  Chili__healthy:
+    Precision: 53.16%, Recall: 84.00%, F1-Score: 65.12%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 57.14%, Recall: 88.00%, F1-Score: 69.29%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 46.94%, Recall: 46.00%, F1-Score: 46.46%, Support: 50.0
+  Chili__whitefly:
+    Precision: 87.50%, Recall: 56.00%, F1-Score: 68.29%, Support: 50.0
+  Chili__yellowish:
+    Precision: 60.00%, Recall: 72.00%, F1-Score: 65.45%, Support: 50.0
+  Corn__common_rust:
+    Precision: 96.83%, Recall: 93.85%, F1-Score: 95.31%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 85.22%, Recall: 89.91%, F1-Score: 87.50%, Support: 109.0
+  Corn__healthy:
+    Precision: 99.15%, Recall: 100.00%, F1-Score: 99.57%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 87.96%, Recall: 77.87%, F1-Score: 82.61%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 78.95%, Recall: 90.00%, F1-Score: 84.11%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 83.33%, Recall: 90.00%, F1-Score: 86.54%, Support: 50.0
+  Grape__black_measles:
+    Precision: 96.48%, Recall: 99.28%, F1-Score: 97.86%, Support: 138.0
+  Grape__black_rot:
+    Precision: 96.48%, Recall: 96.00%, F1-Score: 96.24%, Support: 200.0
+  Grape__healthy:
+    Precision: 100.00%, Recall: 60.00%, F1-Score: 75.00%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 95.35%, Recall: 93.18%, F1-Score: 94.25%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 86.21%, Recall: 100.00%, F1-Score: 92.59%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 100.00%, Recall: 84.00%, F1-Score: 91.30%, Support: 50.0
+  Potato__early_blight:
+    Precision: 91.74%, Recall: 91.74%, F1-Score: 91.74%, Support: 109.0
+  Potato__healthy:
+    Precision: 97.56%, Recall: 80.00%, F1-Score: 87.91%, Support: 50.0
+  Potato__late_blight:
+    Precision: 92.52%, Recall: 90.83%, F1-Score: 91.67%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 77.93%, Recall: 83.00%, F1-Score: 80.39%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 86.32%, Recall: 82.00%, F1-Score: 84.10%, Support: 200.0
+  Soybean__healthy:
+    Precision: 90.86%, Recall: 84.50%, F1-Score: 87.56%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 91.60%, Recall: 99.09%, F1-Score: 95.20%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 80.65%, Recall: 100.00%, F1-Score: 89.29%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 78.69%, Recall: 96.00%, F1-Score: 86.49%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 93.88%, Recall: 92.00%, F1-Score: 92.93%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 75.41%, Recall: 92.00%, F1-Score: 82.88%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 94.23%, Recall: 98.00%, F1-Score: 96.08%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 90.74%, Recall: 98.00%, F1-Score: 94.23%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 91.30%, Recall: 94.50%, F1-Score: 92.87%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 91.76%, Recall: 78.00%, F1-Score: 84.32%, Support: 100.0
+  Tomato__healthy:
+    Precision: 93.49%, Recall: 99.37%, F1-Score: 96.34%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 96.57%, Recall: 88.48%, F1-Score: 92.35%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 93.14%, Recall: 100.00%, F1-Score: 96.45%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 88.46%, Recall: 92.00%, F1-Score: 90.20%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 91.85%, Recall: 94.94%, F1-Score: 93.37%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 94.12%, Recall: 95.81%, F1-Score: 94.96%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 85.51%, Recall: 84.29%, F1-Score: 84.89%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 100.00%, Recall: 95.00%, F1-Score: 97.44%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 78.38%, Recall: 95.60%, F1-Score: 86.14%, Support: 91.0
+  Wheat__healthy:
+    Precision: 95.61%, Recall: 89.34%, F1-Score: 92.37%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 91.45%, Recall: 94.69%, F1-Score: 93.04%, Support: 113.0
+  macro avg:
+    Precision: 84.65%, Recall: 84.23%, F1-Score: 83.53%, Support: 5350.0
+  weighted avg:
+    Precision: 88.20%, Recall: 87.57%, F1-Score: 87.36%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.3945
+准确率 (Accuracy): 87.06%
+精确率 - Macro: 84.54%
+召回率 - Macro: 83.84%
+F1 分数 - Macro: 83.29%
+精确率 - Weighted: 87.82%
+召回率 - Weighted: 87.06%
+F1 分数 - Weighted: 86.88%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 7 训练报告
+================================================================================
+学习率：0.000099
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.4317
+准确率 (Accuracy): 86.30%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.3818
+准确率 (Accuracy): 88.32%
+精确率 - Macro: 86.56%
+召回率 - Macro: 85.67%
+F1 分数 - Macro: 85.16%
+精确率 - Weighted: 89.26%
+召回率 - Weighted: 88.32%
+F1 分数 - Weighted: 88.12%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 93.55%, Recall: 93.55%, F1-Score: 93.55%, Support: 62.0
+  Apple__healthy:
+    Precision: 79.21%, Recall: 97.56%, F1-Score: 87.43%, Support: 164.0
+  Apple__rust:
+    Precision: 93.33%, Recall: 84.00%, F1-Score: 88.42%, Support: 50.0
+  Apple__scab:
+    Precision: 71.95%, Recall: 84.29%, F1-Score: 77.63%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 43.48%, Recall: 80.00%, F1-Score: 56.34%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 75.00%, Recall: 10.91%, F1-Score: 19.05%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 52.63%, Recall: 20.00%, F1-Score: 28.99%, Support: 50.0
+  Cassava__healthy:
+    Precision: 35.71%, Recall: 52.24%, F1-Score: 42.42%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 51.02%, Recall: 50.00%, F1-Score: 50.51%, Support: 50.0
+  Cherry__healthy:
+    Precision: 98.84%, Recall: 94.44%, F1-Score: 96.59%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 99.02%, Recall: 96.19%, F1-Score: 97.58%, Support: 105.0
+  Chili__healthy:
+    Precision: 74.07%, Recall: 80.00%, F1-Score: 76.92%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 86.11%, Recall: 62.00%, F1-Score: 72.09%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 62.00%, Recall: 62.00%, F1-Score: 62.00%, Support: 50.0
+  Chili__whitefly:
+    Precision: 67.92%, Recall: 72.00%, F1-Score: 69.90%, Support: 50.0
+  Chili__yellowish:
+    Precision: 84.00%, Recall: 84.00%, F1-Score: 84.00%, Support: 50.0
+  Corn__common_rust:
+    Precision: 100.00%, Recall: 93.08%, F1-Score: 96.41%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 78.46%, Recall: 93.58%, F1-Score: 85.36%, Support: 109.0
+  Corn__healthy:
+    Precision: 99.15%, Recall: 100.00%, F1-Score: 99.57%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 84.11%, Recall: 73.77%, F1-Score: 78.60%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 93.48%, Recall: 86.00%, F1-Score: 89.58%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 86.79%, Recall: 92.00%, F1-Score: 89.32%, Support: 50.0
+  Grape__black_measles:
+    Precision: 100.00%, Recall: 92.75%, F1-Score: 96.24%, Support: 138.0
+  Grape__black_rot:
+    Precision: 92.06%, Recall: 98.50%, F1-Score: 95.17%, Support: 200.0
+  Grape__healthy:
+    Precision: 91.84%, Recall: 90.00%, F1-Score: 90.91%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 82.24%, Recall: 100.00%, F1-Score: 90.26%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 92.16%, Recall: 94.00%, F1-Score: 93.07%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 93.88%, Recall: 92.00%, F1-Score: 92.93%, Support: 50.0
+  Potato__early_blight:
+    Precision: 88.50%, Recall: 91.74%, F1-Score: 90.09%, Support: 109.0
+  Potato__healthy:
+    Precision: 97.50%, Recall: 78.00%, F1-Score: 86.67%, Support: 50.0
+  Potato__late_blight:
+    Precision: 97.12%, Recall: 92.66%, F1-Score: 94.84%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 77.69%, Recall: 94.00%, F1-Score: 85.07%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 96.27%, Recall: 77.50%, F1-Score: 85.87%, Support: 200.0
+  Soybean__healthy:
+    Precision: 94.02%, Recall: 86.50%, F1-Score: 90.10%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 96.46%, Recall: 99.09%, F1-Score: 97.76%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 92.45%, Recall: 98.00%, F1-Score: 95.15%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 77.78%, Recall: 98.00%, F1-Score: 86.73%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 90.38%, Recall: 94.00%, F1-Score: 92.16%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 93.48%, Recall: 86.00%, F1-Score: 89.58%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 94.23%, Recall: 98.00%, F1-Score: 96.08%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 96.50%, Recall: 96.50%, F1-Score: 96.50%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 76.52%, Recall: 88.00%, F1-Score: 81.86%, Support: 100.0
+  Tomato__healthy:
+    Precision: 98.73%, Recall: 97.48%, F1-Score: 98.10%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 94.94%, Recall: 88.48%, F1-Score: 91.60%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 100.00%, Recall: 92.63%, F1-Score: 96.17%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 99.36%, Recall: 87.64%, F1-Score: 93.13%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 97.40%, Recall: 89.82%, F1-Score: 93.46%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 90.98%, Recall: 79.29%, F1-Score: 84.73%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 97.50%, Recall: 97.50%, F1-Score: 97.50%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 85.29%, Recall: 95.60%, F1-Score: 90.16%, Support: 91.0
+  Wheat__healthy:
+    Precision: 83.92%, Recall: 98.36%, F1-Score: 90.57%, Support: 122.0
+  Wheat__septoria:
+    Precision: 92.59%, Recall: 100.00%, F1-Score: 96.15%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 98.94%, Recall: 82.30%, F1-Score: 89.86%, Support: 113.0
+  macro avg:
+    Precision: 86.56%, Recall: 85.67%, F1-Score: 85.16%, Support: 5350.0
+  weighted avg:
+    Precision: 89.26%, Recall: 88.32%, F1-Score: 88.12%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.3690
+准确率 (Accuracy): 88.16%
+精确率 - Macro: 86.79%
+召回率 - Macro: 85.49%
+F1 分数 - Macro: 85.10%
+精确率 - Weighted: 89.32%
+召回率 - Weighted: 88.16%
+F1 分数 - Weighted: 87.99%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 8 训练报告
+================================================================================
+学习率：0.000096
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.3758
+准确率 (Accuracy): 88.03%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.3256
+准确率 (Accuracy): 89.29%
+精确率 - Macro: 87.01%
+召回率 - Macro: 86.35%
+F1 分数 - Macro: 86.06%
+精确率 - Weighted: 89.79%
+召回率 - Weighted: 89.29%
+F1 分数 - Weighted: 89.11%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 98.36%, Recall: 96.77%, F1-Score: 97.56%, Support: 62.0
+  Apple__healthy:
+    Precision: 86.17%, Recall: 98.78%, F1-Score: 92.05%, Support: 164.0
+  Apple__rust:
+    Precision: 95.45%, Recall: 84.00%, F1-Score: 89.36%, Support: 50.0
+  Apple__scab:
+    Precision: 86.57%, Recall: 82.86%, F1-Score: 84.67%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 57.14%, Recall: 40.00%, F1-Score: 47.06%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 45.24%, Recall: 34.55%, F1-Score: 39.18%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 51.43%, Recall: 36.00%, F1-Score: 42.35%, Support: 50.0
+  Cassava__healthy:
+    Precision: 37.74%, Recall: 59.70%, F1-Score: 46.24%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 53.19%, Recall: 50.00%, F1-Score: 51.55%, Support: 50.0
+  Cherry__healthy:
+    Precision: 91.40%, Recall: 94.44%, F1-Score: 92.90%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 95.37%, Recall: 98.10%, F1-Score: 96.71%, Support: 105.0
+  Chili__healthy:
+    Precision: 67.16%, Recall: 90.00%, F1-Score: 76.92%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 77.78%, Recall: 42.00%, F1-Score: 54.55%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 74.19%, Recall: 46.00%, F1-Score: 56.79%, Support: 50.0
+  Chili__whitefly:
+    Precision: 64.71%, Recall: 88.00%, F1-Score: 74.58%, Support: 50.0
+  Chili__yellowish:
+    Precision: 73.02%, Recall: 92.00%, F1-Score: 81.42%, Support: 50.0
+  Corn__common_rust:
+    Precision: 97.58%, Recall: 93.08%, F1-Score: 95.28%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 88.39%, Recall: 90.83%, F1-Score: 89.59%, Support: 109.0
+  Corn__healthy:
+    Precision: 95.83%, Recall: 99.14%, F1-Score: 97.46%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 78.03%, Recall: 84.43%, F1-Score: 81.10%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 83.05%, Recall: 98.00%, F1-Score: 89.91%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 95.35%, Recall: 82.00%, F1-Score: 88.17%, Support: 50.0
+  Grape__black_measles:
+    Precision: 95.83%, Recall: 100.00%, F1-Score: 97.87%, Support: 138.0
+  Grape__black_rot:
+    Precision: 98.48%, Recall: 97.50%, F1-Score: 97.99%, Support: 200.0
+  Grape__healthy:
+    Precision: 95.74%, Recall: 90.00%, F1-Score: 92.78%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 92.63%, Recall: 100.00%, F1-Score: 96.17%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 100.00%, Recall: 62.00%, F1-Score: 76.54%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 72.46%, Recall: 100.00%, F1-Score: 84.03%, Support: 50.0
+  Potato__early_blight:
+    Precision: 91.82%, Recall: 92.66%, F1-Score: 92.24%, Support: 109.0
+  Potato__healthy:
+    Precision: 91.84%, Recall: 90.00%, F1-Score: 90.91%, Support: 50.0
+  Potato__late_blight:
+    Precision: 93.46%, Recall: 91.74%, F1-Score: 92.59%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 80.09%, Recall: 90.50%, F1-Score: 84.98%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 89.95%, Recall: 85.00%, F1-Score: 87.40%, Support: 200.0
+  Soybean__healthy:
+    Precision: 89.05%, Recall: 89.50%, F1-Score: 89.28%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 94.83%, Recall: 100.00%, F1-Score: 97.35%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 96.15%, Recall: 100.00%, F1-Score: 98.04%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 87.50%, Recall: 98.00%, F1-Score: 92.45%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 92.45%, Recall: 98.00%, F1-Score: 95.15%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 88.24%, Recall: 90.00%, F1-Score: 89.11%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 98.00%, F1-Score: 98.99%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 97.51%, Recall: 98.00%, F1-Score: 97.76%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 94.38%, Recall: 84.00%, F1-Score: 88.89%, Support: 100.0
+  Tomato__healthy:
+    Precision: 98.14%, Recall: 99.37%, F1-Score: 98.75%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 93.19%, Recall: 93.19%, F1-Score: 93.19%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 94.95%, Recall: 98.95%, F1-Score: 96.91%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 92.31%, Recall: 96.00%, F1-Score: 94.12%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 98.67%, Recall: 83.15%, F1-Score: 90.24%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 90.00%, Recall: 97.01%, F1-Score: 93.37%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 100.00%, Recall: 67.14%, F1-Score: 80.34%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 99.49%, Recall: 97.50%, F1-Score: 98.48%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 89.36%, Recall: 92.31%, F1-Score: 90.81%, Support: 91.0
+  Wheat__healthy:
+    Precision: 97.46%, Recall: 94.26%, F1-Score: 95.83%, Support: 122.0
+  Wheat__septoria:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 98.17%, Recall: 94.69%, F1-Score: 96.40%, Support: 113.0
+  macro avg:
+    Precision: 87.01%, Recall: 86.35%, F1-Score: 86.06%, Support: 5350.0
+  weighted avg:
+    Precision: 89.79%, Recall: 89.29%, F1-Score: 89.11%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.3291
+准确率 (Accuracy): 89.03%
+精确率 - Macro: 87.36%
+召回率 - Macro: 86.10%
+F1 分数 - Macro: 86.06%
+精确率 - Weighted: 89.62%
+召回率 - Weighted: 89.03%
+F1 分数 - Weighted: 88.86%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 9 训练报告
+================================================================================
+学习率：0.000091
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.3350
+准确率 (Accuracy): 89.20%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.2757
+准确率 (Accuracy): 91.31%
+精确率 - Macro: 89.32%
+召回率 - Macro: 89.19%
+F1 分数 - Macro: 88.98%
+精确率 - Weighted: 91.79%
+召回率 - Weighted: 91.31%
+F1 分数 - Weighted: 91.35%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 96.88%, Recall: 100.00%, F1-Score: 98.41%, Support: 62.0
+  Apple__healthy:
+    Precision: 90.50%, Recall: 98.78%, F1-Score: 94.46%, Support: 164.0
+  Apple__rust:
+    Precision: 100.00%, Recall: 86.00%, F1-Score: 92.47%, Support: 50.0
+  Apple__scab:
+    Precision: 93.85%, Recall: 87.14%, F1-Score: 90.37%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 50.94%, Recall: 54.00%, F1-Score: 52.43%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 63.64%, Recall: 38.18%, F1-Score: 47.73%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 36.00%, Recall: 54.00%, F1-Score: 43.20%, Support: 50.0
+  Cassava__healthy:
+    Precision: 42.25%, Recall: 44.78%, F1-Score: 43.48%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 54.39%, Recall: 62.00%, F1-Score: 57.94%, Support: 50.0
+  Cherry__healthy:
+    Precision: 93.41%, Recall: 94.44%, F1-Score: 93.92%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 98.08%, Recall: 97.14%, F1-Score: 97.61%, Support: 105.0
+  Chili__healthy:
+    Precision: 74.24%, Recall: 98.00%, F1-Score: 84.48%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 86.49%, Recall: 64.00%, F1-Score: 73.56%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 69.39%, Recall: 68.00%, F1-Score: 68.69%, Support: 50.0
+  Chili__whitefly:
+    Precision: 80.39%, Recall: 82.00%, F1-Score: 81.19%, Support: 50.0
+  Chili__yellowish:
+    Precision: 84.21%, Recall: 96.00%, F1-Score: 89.72%, Support: 50.0
+  Corn__common_rust:
+    Precision: 97.60%, Recall: 93.85%, F1-Score: 95.69%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 90.35%, Recall: 94.50%, F1-Score: 92.38%, Support: 109.0
+  Corn__healthy:
+    Precision: 99.15%, Recall: 100.00%, F1-Score: 99.57%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 93.04%, Recall: 87.70%, F1-Score: 90.30%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 85.96%, Recall: 98.00%, F1-Score: 91.59%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 97.67%, Recall: 84.00%, F1-Score: 90.32%, Support: 50.0
+  Grape__black_measles:
+    Precision: 99.28%, Recall: 100.00%, F1-Score: 99.64%, Support: 138.0
+  Grape__black_rot:
+    Precision: 99.00%, Recall: 99.50%, F1-Score: 99.25%, Support: 200.0
+  Grape__healthy:
+    Precision: 100.00%, Recall: 88.00%, F1-Score: 93.62%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 97.73%, F1-Score: 98.85%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 94.23%, Recall: 98.00%, F1-Score: 96.08%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 97.92%, Recall: 94.00%, F1-Score: 95.92%, Support: 50.0
+  Potato__early_blight:
+    Precision: 91.74%, Recall: 91.74%, F1-Score: 91.74%, Support: 109.0
+  Potato__healthy:
+    Precision: 95.65%, Recall: 88.00%, F1-Score: 91.67%, Support: 50.0
+  Potato__late_blight:
+    Precision: 94.39%, Recall: 92.66%, F1-Score: 93.52%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 84.23%, Recall: 93.50%, F1-Score: 88.63%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 94.97%, Recall: 85.00%, F1-Score: 89.71%, Support: 200.0
+  Soybean__healthy:
+    Precision: 94.79%, Recall: 91.00%, F1-Score: 92.86%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 98.21%, Recall: 100.00%, F1-Score: 99.10%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 96.15%, Recall: 100.00%, F1-Score: 98.04%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 92.45%, Recall: 98.00%, F1-Score: 95.15%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 97.92%, Recall: 94.00%, F1-Score: 95.92%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 92.45%, Recall: 98.00%, F1-Score: 95.15%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 94.23%, Recall: 98.00%, F1-Score: 96.08%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 97.95%, Recall: 95.50%, F1-Score: 96.71%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 89.11%, Recall: 90.00%, F1-Score: 89.55%, Support: 100.0
+  Tomato__healthy:
+    Precision: 85.41%, Recall: 99.37%, F1-Score: 91.86%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 93.40%, Recall: 96.34%, F1-Score: 94.85%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 81.36%, Recall: 96.00%, F1-Score: 88.07%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 98.21%, Recall: 92.70%, F1-Score: 95.38%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 96.79%, Recall: 90.42%, F1-Score: 93.50%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 92.73%, Recall: 72.86%, F1-Score: 81.60%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 99.49%, Recall: 98.00%, F1-Score: 98.74%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 95.40%, Recall: 91.21%, F1-Score: 93.26%, Support: 91.0
+  Wheat__healthy:
+    Precision: 95.08%, Recall: 95.08%, F1-Score: 95.08%, Support: 122.0
+  Wheat__septoria:
+    Precision: 96.15%, Recall: 100.00%, F1-Score: 98.04%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 97.37%, Recall: 98.23%, F1-Score: 97.80%, Support: 113.0
+  macro avg:
+    Precision: 89.32%, Recall: 89.19%, F1-Score: 88.98%, Support: 5350.0
+  weighted avg:
+    Precision: 91.79%, Recall: 91.31%, F1-Score: 91.35%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.2735
+准确率 (Accuracy): 90.91%
+精确率 - Macro: 88.96%
+召回率 - Macro: 88.84%
+F1 分数 - Macro: 88.55%
+精确率 - Weighted: 91.39%
+召回率 - Weighted: 90.91%
+F1 分数 - Weighted: 90.89%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 10 训练报告
+================================================================================
+学习率：0.000084
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.2954
+准确率 (Accuracy): 90.42%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.2428
+准确率 (Accuracy): 92.06%
+精确率 - Macro: 89.91%
+召回率 - Macro: 89.73%
+F1 分数 - Macro: 89.45%
+精确率 - Weighted: 92.43%
+召回率 - Weighted: 92.06%
+F1 分数 - Weighted: 92.01%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 62.0
+  Apple__healthy:
+    Precision: 98.18%, Recall: 98.78%, F1-Score: 98.48%, Support: 164.0
+  Apple__rust:
+    Precision: 95.24%, Recall: 80.00%, F1-Score: 86.96%, Support: 50.0
+  Apple__scab:
+    Precision: 100.00%, Recall: 90.00%, F1-Score: 94.74%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 55.26%, Recall: 42.00%, F1-Score: 47.73%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 46.67%, Recall: 76.36%, F1-Score: 57.93%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 54.84%, Recall: 34.00%, F1-Score: 41.98%, Support: 50.0
+  Cassava__healthy:
+    Precision: 57.14%, Recall: 41.79%, F1-Score: 48.28%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 55.17%, Recall: 64.00%, F1-Score: 59.26%, Support: 50.0
+  Cherry__healthy:
+    Precision: 98.78%, Recall: 90.00%, F1-Score: 94.19%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 98.13%, Recall: 100.00%, F1-Score: 99.06%, Support: 105.0
+  Chili__healthy:
+    Precision: 72.06%, Recall: 98.00%, F1-Score: 83.05%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 72.55%, Recall: 74.00%, F1-Score: 73.27%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 95.00%, Recall: 76.00%, F1-Score: 84.44%, Support: 50.0
+  Chili__whitefly:
+    Precision: 82.00%, Recall: 82.00%, F1-Score: 82.00%, Support: 50.0
+  Chili__yellowish:
+    Precision: 87.76%, Recall: 86.00%, F1-Score: 86.87%, Support: 50.0
+  Corn__common_rust:
+    Precision: 93.85%, Recall: 93.85%, F1-Score: 93.85%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 97.78%, Recall: 80.73%, F1-Score: 88.44%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 79.29%, Recall: 90.98%, F1-Score: 84.73%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 94.74%, Recall: 72.00%, F1-Score: 81.82%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 70.42%, Recall: 100.00%, F1-Score: 82.64%, Support: 50.0
+  Grape__black_measles:
+    Precision: 97.87%, Recall: 100.00%, F1-Score: 98.92%, Support: 138.0
+  Grape__black_rot:
+    Precision: 98.48%, Recall: 97.50%, F1-Score: 97.99%, Support: 200.0
+  Grape__healthy:
+    Precision: 100.00%, Recall: 92.00%, F1-Score: 95.83%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 95.45%, F1-Score: 97.67%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 100.00%, Recall: 88.00%, F1-Score: 93.62%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 89.29%, Recall: 100.00%, F1-Score: 94.34%, Support: 50.0
+  Potato__early_blight:
+    Precision: 97.09%, Recall: 91.74%, F1-Score: 94.34%, Support: 109.0
+  Potato__healthy:
+    Precision: 93.75%, Recall: 90.00%, F1-Score: 91.84%, Support: 50.0
+  Potato__late_blight:
+    Precision: 92.92%, Recall: 96.33%, F1-Score: 94.59%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 83.64%, Recall: 89.50%, F1-Score: 86.47%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 90.05%, Recall: 86.00%, F1-Score: 87.98%, Support: 200.0
+  Soybean__healthy:
+    Precision: 95.38%, Recall: 93.00%, F1-Score: 94.18%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 99.10%, Recall: 100.00%, F1-Score: 99.55%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 94.12%, Recall: 96.00%, F1-Score: 95.05%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 96.08%, Recall: 98.00%, F1-Score: 97.03%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 84.48%, Recall: 98.00%, F1-Score: 90.74%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 94.79%, Recall: 100.00%, F1-Score: 97.32%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 88.99%, Recall: 97.00%, F1-Score: 92.82%, Support: 100.0
+  Tomato__healthy:
+    Precision: 97.53%, Recall: 99.37%, F1-Score: 98.44%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 98.88%, Recall: 92.15%, F1-Score: 95.39%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 98.94%, Recall: 97.89%, F1-Score: 98.41%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 85.71%, Recall: 96.00%, F1-Score: 90.57%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 99.41%, Recall: 94.94%, F1-Score: 97.13%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 96.91%, Recall: 94.01%, F1-Score: 95.44%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 93.75%, Recall: 96.43%, F1-Score: 95.07%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 100.00%, Recall: 96.00%, F1-Score: 97.96%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 90.62%, Recall: 95.60%, F1-Score: 93.05%, Support: 91.0
+  Wheat__healthy:
+    Precision: 96.75%, Recall: 97.54%, F1-Score: 97.14%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 97.37%, Recall: 98.23%, F1-Score: 97.80%, Support: 113.0
+  macro avg:
+    Precision: 89.91%, Recall: 89.73%, F1-Score: 89.45%, Support: 5350.0
+  weighted avg:
+    Precision: 92.43%, Recall: 92.06%, F1-Score: 92.01%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.2378
+准确率 (Accuracy): 91.85%
+精确率 - Macro: 90.04%
+召回率 - Macro: 89.40%
+F1 分数 - Macro: 89.36%
+精确率 - Weighted: 92.35%
+召回率 - Weighted: 91.85%
+F1 分数 - Weighted: 91.84%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 11 训练报告
+================================================================================
+学习率：0.000075
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.2635
+准确率 (Accuracy): 91.32%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.2257
+准确率 (Accuracy): 92.77%
+精确率 - Macro: 90.85%
+召回率 - Macro: 90.83%
+F1 分数 - Macro: 90.59%
+精确率 - Weighted: 93.18%
+召回率 - Weighted: 92.77%
+F1 分数 - Weighted: 92.76%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 96.88%, Recall: 100.00%, F1-Score: 98.41%, Support: 62.0
+  Apple__healthy:
+    Precision: 97.58%, Recall: 98.17%, F1-Score: 97.87%, Support: 164.0
+  Apple__rust:
+    Precision: 90.00%, Recall: 90.00%, F1-Score: 90.00%, Support: 50.0
+  Apple__scab:
+    Precision: 93.75%, Recall: 85.71%, F1-Score: 89.55%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 57.69%, Recall: 60.00%, F1-Score: 58.82%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 70.97%, Recall: 40.00%, F1-Score: 51.16%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 43.28%, Recall: 58.00%, F1-Score: 49.57%, Support: 50.0
+  Cassava__healthy:
+    Precision: 44.26%, Recall: 40.30%, F1-Score: 42.19%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 58.82%, Recall: 60.00%, F1-Score: 59.41%, Support: 50.0
+  Cherry__healthy:
+    Precision: 96.59%, Recall: 94.44%, F1-Score: 95.51%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 99.03%, Recall: 97.14%, F1-Score: 98.08%, Support: 105.0
+  Chili__healthy:
+    Precision: 83.33%, Recall: 90.00%, F1-Score: 86.54%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 78.43%, Recall: 80.00%, F1-Score: 79.21%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 66.67%, Recall: 96.00%, F1-Score: 78.69%, Support: 50.0
+  Chili__whitefly:
+    Precision: 84.00%, Recall: 84.00%, F1-Score: 84.00%, Support: 50.0
+  Chili__yellowish:
+    Precision: 88.46%, Recall: 92.00%, F1-Score: 90.20%, Support: 50.0
+  Corn__common_rust:
+    Precision: 97.62%, Recall: 94.62%, F1-Score: 96.09%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 93.07%, Recall: 86.24%, F1-Score: 89.52%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 84.96%, Recall: 92.62%, F1-Score: 88.63%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 90.57%, Recall: 96.00%, F1-Score: 93.20%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 97.83%, Recall: 90.00%, F1-Score: 93.75%, Support: 50.0
+  Grape__black_measles:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 138.0
+  Grape__black_rot:
+    Precision: 99.01%, Recall: 100.00%, F1-Score: 99.50%, Support: 200.0
+  Grape__healthy:
+    Precision: 100.00%, Recall: 86.00%, F1-Score: 92.47%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 98.85%, Recall: 97.73%, F1-Score: 98.29%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 100.00%, Recall: 88.00%, F1-Score: 93.62%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 89.29%, Recall: 100.00%, F1-Score: 94.34%, Support: 50.0
+  Potato__early_blight:
+    Precision: 100.00%, Recall: 92.66%, F1-Score: 96.19%, Support: 109.0
+  Potato__healthy:
+    Precision: 93.88%, Recall: 92.00%, F1-Score: 92.93%, Support: 50.0
+  Potato__late_blight:
+    Precision: 96.33%, Recall: 96.33%, F1-Score: 96.33%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 78.23%, Recall: 97.00%, F1-Score: 86.61%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 98.71%, Recall: 76.50%, F1-Score: 86.20%, Support: 200.0
+  Soybean__healthy:
+    Precision: 94.85%, Recall: 92.00%, F1-Score: 93.40%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 99.10%, Recall: 100.00%, F1-Score: 99.55%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 96.15%, Recall: 100.00%, F1-Score: 98.04%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 100.00%, Recall: 96.00%, F1-Score: 97.96%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 89.29%, Recall: 100.00%, F1-Score: 94.34%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 96.60%, Recall: 99.50%, F1-Score: 98.03%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 97.87%, Recall: 92.00%, F1-Score: 94.85%, Support: 100.0
+  Tomato__healthy:
+    Precision: 99.36%, Recall: 98.11%, F1-Score: 98.73%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 94.79%, Recall: 95.29%, F1-Score: 95.04%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 94.12%, Recall: 96.00%, F1-Score: 95.05%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 98.86%, Recall: 97.75%, F1-Score: 98.31%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 100.00%, Recall: 95.21%, F1-Score: 97.55%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 92.00%, Recall: 98.57%, F1-Score: 95.17%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 100.00%, Recall: 95.50%, F1-Score: 97.70%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 92.39%, Recall: 93.41%, F1-Score: 92.90%, Support: 91.0
+  Wheat__healthy:
+    Precision: 94.35%, Recall: 95.90%, F1-Score: 95.12%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 96.55%, Recall: 99.12%, F1-Score: 97.82%, Support: 113.0
+  macro avg:
+    Precision: 90.85%, Recall: 90.83%, F1-Score: 90.59%, Support: 5350.0
+  weighted avg:
+    Precision: 93.18%, Recall: 92.77%, F1-Score: 92.76%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.2297
+准确率 (Accuracy): 92.28%
+精确率 - Macro: 90.82%
+召回率 - Macro: 90.49%
+F1 分数 - Macro: 90.36%
+精确率 - Weighted: 92.81%
+召回率 - Weighted: 92.28%
+F1 分数 - Weighted: 92.28%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 12 训练报告
+================================================================================
+学习率：0.000066
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.2322
+准确率 (Accuracy): 92.39%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.2130
+准确率 (Accuracy): 93.29%
+精确率 - Macro: 91.85%
+召回率 - Macro: 91.29%
+F1 分数 - Macro: 91.25%
+精确率 - Weighted: 93.71%
+召回率 - Weighted: 93.29%
+F1 分数 - Weighted: 93.30%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 96.88%, Recall: 100.00%, F1-Score: 98.41%, Support: 62.0
+  Apple__healthy:
+    Precision: 97.59%, Recall: 98.78%, F1-Score: 98.18%, Support: 164.0
+  Apple__rust:
+    Precision: 91.30%, Recall: 84.00%, F1-Score: 87.50%, Support: 50.0
+  Apple__scab:
+    Precision: 94.12%, Recall: 91.43%, F1-Score: 92.75%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 56.86%, Recall: 58.00%, F1-Score: 57.43%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 70.27%, Recall: 47.27%, F1-Score: 56.52%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 54.55%, Recall: 48.00%, F1-Score: 51.06%, Support: 50.0
+  Cassava__healthy:
+    Precision: 41.05%, Recall: 58.21%, F1-Score: 48.15%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 63.83%, Recall: 60.00%, F1-Score: 61.86%, Support: 50.0
+  Cherry__healthy:
+    Precision: 93.48%, Recall: 95.56%, F1-Score: 94.51%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 105.0
+  Chili__healthy:
+    Precision: 87.72%, Recall: 100.00%, F1-Score: 93.46%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 93.02%, Recall: 80.00%, F1-Score: 86.02%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 94.12%, Recall: 96.00%, F1-Score: 95.05%, Support: 50.0
+  Chili__whitefly:
+    Precision: 93.88%, Recall: 92.00%, F1-Score: 92.93%, Support: 50.0
+  Chili__yellowish:
+    Precision: 87.04%, Recall: 94.00%, F1-Score: 90.38%, Support: 50.0
+  Corn__common_rust:
+    Precision: 98.39%, Recall: 93.85%, F1-Score: 96.06%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 94.17%, Recall: 88.99%, F1-Score: 91.51%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 83.82%, Recall: 93.44%, F1-Score: 88.37%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 94.23%, Recall: 98.00%, F1-Score: 96.08%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 100.00%, Recall: 94.00%, F1-Score: 96.91%, Support: 50.0
+  Grape__black_measles:
+    Precision: 98.57%, Recall: 100.00%, F1-Score: 99.28%, Support: 138.0
+  Grape__black_rot:
+    Precision: 99.00%, Recall: 99.50%, F1-Score: 99.25%, Support: 200.0
+  Grape__healthy:
+    Precision: 95.74%, Recall: 90.00%, F1-Score: 92.78%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 97.73%, F1-Score: 98.85%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 67.57%, Recall: 100.00%, F1-Score: 80.65%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 100.00%, Recall: 52.00%, F1-Score: 68.42%, Support: 50.0
+  Potato__early_blight:
+    Precision: 95.33%, Recall: 93.58%, F1-Score: 94.44%, Support: 109.0
+  Potato__healthy:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 50.0
+  Potato__late_blight:
+    Precision: 96.36%, Recall: 97.25%, F1-Score: 96.80%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 82.57%, Recall: 90.00%, F1-Score: 86.12%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 89.45%, Recall: 89.00%, F1-Score: 89.22%, Support: 200.0
+  Soybean__healthy:
+    Precision: 98.34%, Recall: 89.00%, F1-Score: 93.44%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 99.10%, Recall: 100.00%, F1-Score: 99.55%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 96.08%, Recall: 98.00%, F1-Score: 97.03%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 93.90%, Recall: 100.00%, F1-Score: 96.85%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 93.14%, Recall: 95.00%, F1-Score: 94.06%, Support: 100.0
+  Tomato__healthy:
+    Precision: 99.37%, Recall: 99.37%, F1-Score: 99.37%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 98.41%, Recall: 97.38%, F1-Score: 97.89%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 100.00%, Recall: 97.89%, F1-Score: 98.94%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 90.57%, Recall: 96.00%, F1-Score: 93.20%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 97.77%, Recall: 98.31%, F1-Score: 98.04%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 98.79%, Recall: 97.60%, F1-Score: 98.19%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 100.00%, Recall: 94.29%, F1-Score: 97.06%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 100.00%, Recall: 93.50%, F1-Score: 96.64%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 95.65%, Recall: 96.70%, F1-Score: 96.17%, Support: 91.0
+  Wheat__healthy:
+    Precision: 95.16%, Recall: 96.72%, F1-Score: 95.93%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 100.00%, Recall: 96.46%, F1-Score: 98.20%, Support: 113.0
+  macro avg:
+    Precision: 91.85%, Recall: 91.29%, F1-Score: 91.25%, Support: 5350.0
+  weighted avg:
+    Precision: 93.71%, Recall: 93.29%, F1-Score: 93.30%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.2203
+准确率 (Accuracy): 92.98%
+精确率 - Macro: 91.93%
+召回率 - Macro: 91.11%
+F1 分数 - Macro: 91.02%
+精确率 - Weighted: 93.58%
+召回率 - Weighted: 92.98%
+F1 分数 - Weighted: 92.96%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 13 训练报告
+================================================================================
+学习率：0.000056
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.2039
+准确率 (Accuracy): 93.07%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.1768
+准确率 (Accuracy): 94.11%
+精确率 - Macro: 92.09%
+召回率 - Macro: 92.40%
+F1 分数 - Macro: 92.12%
+精确率 - Weighted: 94.21%
+召回率 - Weighted: 94.11%
+F1 分数 - Weighted: 94.09%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 96.88%, Recall: 100.00%, F1-Score: 98.41%, Support: 62.0
+  Apple__healthy:
+    Precision: 97.60%, Recall: 99.39%, F1-Score: 98.49%, Support: 164.0
+  Apple__rust:
+    Precision: 95.74%, Recall: 90.00%, F1-Score: 92.78%, Support: 50.0
+  Apple__scab:
+    Precision: 96.83%, Recall: 87.14%, F1-Score: 91.73%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 55.36%, Recall: 62.00%, F1-Score: 58.49%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 60.00%, Recall: 43.64%, F1-Score: 50.53%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 57.89%, Recall: 44.00%, F1-Score: 50.00%, Support: 50.0
+  Cassava__healthy:
+    Precision: 47.76%, Recall: 47.76%, F1-Score: 47.76%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 53.85%, Recall: 70.00%, F1-Score: 60.87%, Support: 50.0
+  Cherry__healthy:
+    Precision: 97.73%, Recall: 95.56%, F1-Score: 96.63%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 100.00%, Recall: 99.05%, F1-Score: 99.52%, Support: 105.0
+  Chili__healthy:
+    Precision: 90.38%, Recall: 94.00%, F1-Score: 92.16%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 86.27%, Recall: 88.00%, F1-Score: 87.13%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 75.38%, Recall: 98.00%, F1-Score: 85.22%, Support: 50.0
+  Chili__whitefly:
+    Precision: 83.93%, Recall: 94.00%, F1-Score: 88.68%, Support: 50.0
+  Chili__yellowish:
+    Precision: 90.38%, Recall: 94.00%, F1-Score: 92.16%, Support: 50.0
+  Corn__common_rust:
+    Precision: 96.83%, Recall: 93.85%, F1-Score: 95.31%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 94.39%, Recall: 92.66%, F1-Score: 93.52%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 90.91%, Recall: 90.16%, F1-Score: 90.53%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Grape__black_measles:
+    Precision: 99.28%, Recall: 100.00%, F1-Score: 99.64%, Support: 138.0
+  Grape__black_rot:
+    Precision: 99.01%, Recall: 100.00%, F1-Score: 99.50%, Support: 200.0
+  Grape__healthy:
+    Precision: 94.00%, Recall: 94.00%, F1-Score: 94.00%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 96.59%, F1-Score: 98.27%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 100.00%, Recall: 90.00%, F1-Score: 94.74%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 90.91%, Recall: 100.00%, F1-Score: 95.24%, Support: 50.0
+  Potato__early_blight:
+    Precision: 98.06%, Recall: 92.66%, F1-Score: 95.28%, Support: 109.0
+  Potato__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Potato__late_blight:
+    Precision: 97.22%, Recall: 96.33%, F1-Score: 96.77%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 88.21%, Recall: 93.50%, F1-Score: 90.78%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 92.35%, Recall: 90.50%, F1-Score: 91.41%, Support: 200.0
+  Soybean__healthy:
+    Precision: 96.41%, Recall: 94.00%, F1-Score: 95.19%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 99.10%, Recall: 100.00%, F1-Score: 99.55%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 94.23%, Recall: 98.00%, F1-Score: 96.08%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 96.12%, Recall: 99.00%, F1-Score: 97.54%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 94.00%, Recall: 94.00%, F1-Score: 94.00%, Support: 100.0
+  Tomato__healthy:
+    Precision: 99.37%, Recall: 99.37%, F1-Score: 99.37%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 98.91%, Recall: 94.76%, F1-Score: 96.79%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 98.96%, Recall: 100.00%, F1-Score: 99.48%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 90.57%, Recall: 96.00%, F1-Score: 93.20%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 98.29%, Recall: 96.63%, F1-Score: 97.45%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 97.01%, Recall: 97.01%, F1-Score: 97.01%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 99.25%, Recall: 95.00%, F1-Score: 97.08%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 100.00%, Recall: 97.50%, F1-Score: 98.73%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 91.67%, Recall: 96.70%, F1-Score: 94.12%, Support: 91.0
+  Wheat__healthy:
+    Precision: 97.56%, Recall: 98.36%, F1-Score: 97.96%, Support: 122.0
+  Wheat__septoria:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 98.25%, Recall: 99.12%, F1-Score: 98.68%, Support: 113.0
+  macro avg:
+    Precision: 92.09%, Recall: 92.40%, F1-Score: 92.12%, Support: 5350.0
+  weighted avg:
+    Precision: 94.21%, Recall: 94.11%, F1-Score: 94.09%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.1913
+准确率 (Accuracy): 93.76%
+精确率 - Macro: 92.43%
+召回率 - Macro: 92.06%
+F1 分数 - Macro: 91.98%
+精确率 - Weighted: 94.06%
+召回率 - Weighted: 93.76%
+F1 分数 - Weighted: 93.75%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 14 训练报告
+================================================================================
+学习率：0.000045
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.1769
+准确率 (Accuracy): 93.90%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.1694
+准确率 (Accuracy): 94.32%
+精确率 - Macro: 92.32%
+召回率 - Macro: 92.65%
+F1 分数 - Macro: 92.38%
+精确率 - Weighted: 94.43%
+召回率 - Weighted: 94.32%
+F1 分数 - Weighted: 94.30%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 62.0
+  Apple__healthy:
+    Precision: 98.18%, Recall: 98.78%, F1-Score: 98.48%, Support: 164.0
+  Apple__rust:
+    Precision: 97.83%, Recall: 90.00%, F1-Score: 93.75%, Support: 50.0
+  Apple__scab:
+    Precision: 96.88%, Recall: 88.57%, F1-Score: 92.54%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 50.00%, Recall: 40.00%, F1-Score: 44.44%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 57.14%, Recall: 50.91%, F1-Score: 53.85%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 54.39%, Recall: 62.00%, F1-Score: 57.94%, Support: 50.0
+  Cassava__healthy:
+    Precision: 49.12%, Recall: 41.79%, F1-Score: 45.16%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 50.00%, Recall: 70.00%, F1-Score: 58.33%, Support: 50.0
+  Cherry__healthy:
+    Precision: 94.51%, Recall: 95.56%, F1-Score: 95.03%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 105.0
+  Chili__healthy:
+    Precision: 86.21%, Recall: 100.00%, F1-Score: 92.59%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 95.45%, Recall: 84.00%, F1-Score: 89.36%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 88.68%, Recall: 94.00%, F1-Score: 91.26%, Support: 50.0
+  Chili__whitefly:
+    Precision: 83.93%, Recall: 94.00%, F1-Score: 88.68%, Support: 50.0
+  Chili__yellowish:
+    Precision: 89.09%, Recall: 98.00%, F1-Score: 93.33%, Support: 50.0
+  Corn__common_rust:
+    Precision: 96.88%, Recall: 95.38%, F1-Score: 96.12%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 90.35%, Recall: 94.50%, F1-Score: 92.38%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 92.24%, Recall: 87.70%, F1-Score: 89.92%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 93.88%, Recall: 92.00%, F1-Score: 92.93%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 92.31%, Recall: 96.00%, F1-Score: 94.12%, Support: 50.0
+  Grape__black_measles:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 138.0
+  Grape__black_rot:
+    Precision: 99.50%, Recall: 100.00%, F1-Score: 99.75%, Support: 200.0
+  Grape__healthy:
+    Precision: 100.00%, Recall: 94.00%, F1-Score: 96.91%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 98.86%, F1-Score: 99.43%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 100.00%, Recall: 98.00%, F1-Score: 98.99%, Support: 50.0
+  Potato__early_blight:
+    Precision: 96.19%, Recall: 92.66%, F1-Score: 94.39%, Support: 109.0
+  Potato__healthy:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Potato__late_blight:
+    Precision: 95.45%, Recall: 96.33%, F1-Score: 95.89%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 85.52%, Recall: 94.50%, F1-Score: 89.79%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 97.18%, Recall: 86.00%, F1-Score: 91.25%, Support: 200.0
+  Soybean__healthy:
+    Precision: 95.00%, Recall: 95.00%, F1-Score: 95.00%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 98.21%, Recall: 100.00%, F1-Score: 99.10%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 96.15%, Recall: 100.00%, F1-Score: 98.04%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 96.15%, Recall: 100.00%, F1-Score: 98.04%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 100.0
+  Tomato__healthy:
+    Precision: 98.75%, Recall: 99.37%, F1-Score: 99.06%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 98.92%, Recall: 96.34%, F1-Score: 97.61%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 100.00%, Recall: 97.89%, F1-Score: 98.94%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 92.31%, Recall: 96.00%, F1-Score: 94.12%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 100.00%, Recall: 98.31%, F1-Score: 99.15%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 98.78%, Recall: 97.01%, F1-Score: 97.89%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 98.56%, Recall: 97.86%, F1-Score: 98.21%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 100.00%, Recall: 97.00%, F1-Score: 98.48%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 96.74%, Recall: 97.80%, F1-Score: 97.27%, Support: 91.0
+  Wheat__healthy:
+    Precision: 97.56%, Recall: 98.36%, F1-Score: 97.96%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 99.10%, Recall: 97.35%, F1-Score: 98.21%, Support: 113.0
+  macro avg:
+    Precision: 92.32%, Recall: 92.65%, F1-Score: 92.38%, Support: 5350.0
+  weighted avg:
+    Precision: 94.43%, Recall: 94.32%, F1-Score: 94.30%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.1762
+准确率 (Accuracy): 94.10%
+精确率 - Macro: 92.47%
+召回率 - Macro: 92.63%
+F1 分数 - Macro: 92.42%
+精确率 - Weighted: 94.27%
+召回率 - Weighted: 94.10%
+F1 分数 - Weighted: 94.08%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 15 训练报告
+================================================================================
+学习率：0.000035
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.1591
+准确率 (Accuracy): 94.62%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.1621
+准确率 (Accuracy): 94.86%
+精确率 - Macro: 93.33%
+召回率 - Macro: 93.34%
+F1 分数 - Macro: 93.22%
+精确率 - Weighted: 95.02%
+召回率 - Weighted: 94.86%
+F1 分数 - Weighted: 94.87%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 62.0
+  Apple__healthy:
+    Precision: 98.79%, Recall: 99.39%, F1-Score: 99.09%, Support: 164.0
+  Apple__rust:
+    Precision: 95.74%, Recall: 90.00%, F1-Score: 92.78%, Support: 50.0
+  Apple__scab:
+    Precision: 95.52%, Recall: 91.43%, F1-Score: 93.43%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 60.00%, Recall: 42.00%, F1-Score: 49.41%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 67.39%, Recall: 56.36%, F1-Score: 61.39%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 56.52%, Recall: 52.00%, F1-Score: 54.17%, Support: 50.0
+  Cassava__healthy:
+    Precision: 43.30%, Recall: 62.69%, F1-Score: 51.22%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 65.31%, Recall: 64.00%, F1-Score: 64.65%, Support: 50.0
+  Cherry__healthy:
+    Precision: 96.55%, Recall: 93.33%, F1-Score: 94.92%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 105.0
+  Chili__healthy:
+    Precision: 90.74%, Recall: 98.00%, F1-Score: 94.23%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 95.74%, Recall: 90.00%, F1-Score: 92.78%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Chili__whitefly:
+    Precision: 87.72%, Recall: 100.00%, F1-Score: 93.46%, Support: 50.0
+  Chili__yellowish:
+    Precision: 90.91%, Recall: 100.00%, F1-Score: 95.24%, Support: 50.0
+  Corn__common_rust:
+    Precision: 98.39%, Recall: 93.85%, F1-Score: 96.06%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 96.26%, Recall: 94.50%, F1-Score: 95.37%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 91.27%, Recall: 94.26%, F1-Score: 92.74%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 97.96%, Recall: 96.00%, F1-Score: 96.97%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 50.0
+  Grape__black_measles:
+    Precision: 100.00%, Recall: 98.55%, F1-Score: 99.27%, Support: 138.0
+  Grape__black_rot:
+    Precision: 98.52%, Recall: 100.00%, F1-Score: 99.26%, Support: 200.0
+  Grape__healthy:
+    Precision: 97.92%, Recall: 94.00%, F1-Score: 95.92%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 98.86%, F1-Score: 99.43%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 92.59%, Recall: 100.00%, F1-Score: 96.15%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 100.00%, Recall: 92.00%, F1-Score: 95.83%, Support: 50.0
+  Potato__early_blight:
+    Precision: 99.02%, Recall: 92.66%, F1-Score: 95.73%, Support: 109.0
+  Potato__healthy:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Potato__late_blight:
+    Precision: 92.11%, Recall: 96.33%, F1-Score: 94.17%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 93.09%, Recall: 87.50%, F1-Score: 90.21%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 89.66%, Recall: 91.00%, F1-Score: 90.32%, Support: 200.0
+  Soybean__healthy:
+    Precision: 94.66%, Recall: 97.50%, F1-Score: 96.06%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 99.10%, Recall: 100.00%, F1-Score: 99.55%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 96.15%, Recall: 100.00%, F1-Score: 98.04%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 96.15%, Recall: 100.00%, F1-Score: 98.04%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 98.03%, Recall: 99.50%, F1-Score: 98.76%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 97.06%, Recall: 99.00%, F1-Score: 98.02%, Support: 100.0
+  Tomato__healthy:
+    Precision: 97.53%, Recall: 99.37%, F1-Score: 98.44%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 98.94%, Recall: 97.91%, F1-Score: 98.42%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 100.00%, Recall: 97.89%, F1-Score: 98.94%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 90.57%, Recall: 96.00%, F1-Score: 93.20%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 100.00%, Recall: 97.19%, F1-Score: 98.58%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 98.77%, Recall: 96.41%, F1-Score: 97.58%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 98.56%, Recall: 97.86%, F1-Score: 98.21%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 99.49%, Recall: 98.00%, F1-Score: 98.74%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 92.63%, Recall: 96.70%, F1-Score: 94.62%, Support: 91.0
+  Wheat__healthy:
+    Precision: 99.18%, Recall: 99.18%, F1-Score: 99.18%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 99.11%, Recall: 98.23%, F1-Score: 98.67%, Support: 113.0
+  macro avg:
+    Precision: 93.33%, Recall: 93.34%, F1-Score: 93.22%, Support: 5350.0
+  weighted avg:
+    Precision: 95.02%, Recall: 94.86%, F1-Score: 94.87%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.1621
+准确率 (Accuracy): 94.64%
+精确率 - Macro: 93.42%
+召回率 - Macro: 93.20%
+F1 分数 - Macro: 93.23%
+精确率 - Weighted: 94.80%
+召回率 - Weighted: 94.64%
+F1 分数 - Weighted: 94.66%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 16 训练报告
+================================================================================
+学习率：0.000026
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.1353
+准确率 (Accuracy): 95.35%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.1475
+准确率 (Accuracy): 95.14%
+精确率 - Macro: 93.55%
+召回率 - Macro: 93.65%
+F1 分数 - Macro: 93.52%
+精确率 - Weighted: 95.19%
+召回率 - Weighted: 95.14%
+F1 分数 - Weighted: 95.11%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 62.0
+  Apple__healthy:
+    Precision: 98.19%, Recall: 99.39%, F1-Score: 98.79%, Support: 164.0
+  Apple__rust:
+    Precision: 95.92%, Recall: 94.00%, F1-Score: 94.95%, Support: 50.0
+  Apple__scab:
+    Precision: 96.92%, Recall: 90.00%, F1-Score: 93.33%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 56.25%, Recall: 54.00%, F1-Score: 55.10%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 69.57%, Recall: 58.18%, F1-Score: 63.37%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 45.59%, Recall: 62.00%, F1-Score: 52.54%, Support: 50.0
+  Cassava__healthy:
+    Precision: 48.15%, Recall: 38.81%, F1-Score: 42.98%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 62.75%, Recall: 64.00%, F1-Score: 63.37%, Support: 50.0
+  Cherry__healthy:
+    Precision: 94.44%, Recall: 94.44%, F1-Score: 94.44%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 105.0
+  Chili__healthy:
+    Precision: 90.91%, Recall: 100.00%, F1-Score: 95.24%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 97.83%, Recall: 90.00%, F1-Score: 93.75%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 96.15%, Recall: 100.00%, F1-Score: 98.04%, Support: 50.0
+  Chili__whitefly:
+    Precision: 89.29%, Recall: 100.00%, F1-Score: 94.34%, Support: 50.0
+  Chili__yellowish:
+    Precision: 92.59%, Recall: 100.00%, F1-Score: 96.15%, Support: 50.0
+  Corn__common_rust:
+    Precision: 96.88%, Recall: 95.38%, F1-Score: 96.12%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 92.86%, Recall: 95.41%, F1-Score: 94.12%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 93.28%, Recall: 90.98%, F1-Score: 92.12%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 100.00%, Recall: 92.00%, F1-Score: 95.83%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 92.59%, Recall: 100.00%, F1-Score: 96.15%, Support: 50.0
+  Grape__black_measles:
+    Precision: 97.18%, Recall: 100.00%, F1-Score: 98.57%, Support: 138.0
+  Grape__black_rot:
+    Precision: 100.00%, Recall: 98.50%, F1-Score: 99.24%, Support: 200.0
+  Grape__healthy:
+    Precision: 97.87%, Recall: 92.00%, F1-Score: 94.85%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 100.00%, Recall: 98.00%, F1-Score: 98.99%, Support: 50.0
+  Potato__early_blight:
+    Precision: 98.08%, Recall: 93.58%, F1-Score: 95.77%, Support: 109.0
+  Potato__healthy:
+    Precision: 100.00%, Recall: 98.00%, F1-Score: 98.99%, Support: 50.0
+  Potato__late_blight:
+    Precision: 92.11%, Recall: 96.33%, F1-Score: 94.17%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 90.64%, Recall: 92.00%, F1-Score: 91.32%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 95.26%, Recall: 90.50%, F1-Score: 92.82%, Support: 200.0
+  Soybean__healthy:
+    Precision: 93.33%, Recall: 98.00%, F1-Score: 95.61%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 99.10%, Recall: 100.00%, F1-Score: 99.55%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 100.00%, Recall: 98.00%, F1-Score: 98.99%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 97.56%, Recall: 100.00%, F1-Score: 98.77%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 100.0
+  Tomato__healthy:
+    Precision: 99.37%, Recall: 99.37%, F1-Score: 99.37%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 98.43%, Recall: 98.43%, F1-Score: 98.43%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 100.00%, Recall: 97.75%, F1-Score: 98.86%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 99.39%, Recall: 98.20%, F1-Score: 98.80%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 99.28%, Recall: 97.86%, F1-Score: 98.56%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 100.00%, Recall: 97.50%, F1-Score: 98.73%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 94.62%, Recall: 96.70%, F1-Score: 95.65%, Support: 91.0
+  Wheat__healthy:
+    Precision: 98.36%, Recall: 98.36%, F1-Score: 98.36%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 98.25%, Recall: 99.12%, F1-Score: 98.68%, Support: 113.0
+  macro avg:
+    Precision: 93.55%, Recall: 93.65%, F1-Score: 93.52%, Support: 5350.0
+  weighted avg:
+    Precision: 95.19%, Recall: 95.14%, F1-Score: 95.11%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.1567
+准确率 (Accuracy): 94.77%
+精确率 - Macro: 93.15%
+召回率 - Macro: 93.26%
+F1 分数 - Macro: 93.11%
+精确率 - Weighted: 94.82%
+召回率 - Weighted: 94.77%
+F1 分数 - Weighted: 94.72%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 17 训练报告
+================================================================================
+学习率：0.000017
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.1192
+准确率 (Accuracy): 95.96%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.1374
+准确率 (Accuracy): 95.72%
+精确率 - Macro: 94.28%
+召回率 - Macro: 94.26%
+F1 分数 - Macro: 94.15%
+精确率 - Weighted: 95.76%
+召回率 - Weighted: 95.72%
+F1 分数 - Weighted: 95.67%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 62.0
+  Apple__healthy:
+    Precision: 99.39%, Recall: 99.39%, F1-Score: 99.39%, Support: 164.0
+  Apple__rust:
+    Precision: 94.00%, Recall: 94.00%, F1-Score: 94.00%, Support: 50.0
+  Apple__scab:
+    Precision: 95.45%, Recall: 90.00%, F1-Score: 92.65%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 51.56%, Recall: 66.00%, F1-Score: 57.89%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 68.75%, Recall: 60.00%, F1-Score: 64.08%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 68.75%, Recall: 44.00%, F1-Score: 53.66%, Support: 50.0
+  Cassava__healthy:
+    Precision: 58.62%, Recall: 50.75%, F1-Score: 54.40%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 60.32%, Recall: 76.00%, F1-Score: 67.26%, Support: 50.0
+  Cherry__healthy:
+    Precision: 93.48%, Recall: 95.56%, F1-Score: 94.51%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 105.0
+  Chili__healthy:
+    Precision: 92.59%, Recall: 100.00%, F1-Score: 96.15%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 100.00%, Recall: 90.00%, F1-Score: 94.74%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Chili__whitefly:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Chili__yellowish:
+    Precision: 92.59%, Recall: 100.00%, F1-Score: 96.15%, Support: 50.0
+  Corn__common_rust:
+    Precision: 96.88%, Recall: 95.38%, F1-Score: 96.12%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 95.41%, Recall: 95.41%, F1-Score: 95.41%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 94.12%, Recall: 91.80%, F1-Score: 92.95%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 100.00%, Recall: 94.00%, F1-Score: 96.91%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Grape__black_measles:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 138.0
+  Grape__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 200.0
+  Grape__healthy:
+    Precision: 97.87%, Recall: 92.00%, F1-Score: 94.85%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 100.00%, Recall: 94.00%, F1-Score: 96.91%, Support: 50.0
+  Potato__early_blight:
+    Precision: 94.50%, Recall: 94.50%, F1-Score: 94.50%, Support: 109.0
+  Potato__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Potato__late_blight:
+    Precision: 96.36%, Recall: 97.25%, F1-Score: 96.80%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 92.96%, Recall: 92.50%, F1-Score: 92.73%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 95.36%, Recall: 92.50%, F1-Score: 93.91%, Support: 200.0
+  Soybean__healthy:
+    Precision: 93.84%, Recall: 99.00%, F1-Score: 96.35%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 98.21%, Recall: 100.00%, F1-Score: 99.10%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 97.56%, Recall: 100.00%, F1-Score: 98.77%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 100.0
+  Tomato__healthy:
+    Precision: 98.75%, Recall: 99.37%, F1-Score: 99.06%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 98.43%, Recall: 98.43%, F1-Score: 98.43%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 94.12%, Recall: 96.00%, F1-Score: 95.05%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 100.00%, Recall: 98.31%, F1-Score: 99.15%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 99.39%, Recall: 97.60%, F1-Score: 98.49%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 99.28%, Recall: 98.57%, F1-Score: 98.92%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 99.49%, Recall: 98.00%, F1-Score: 98.74%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 94.68%, Recall: 97.80%, F1-Score: 96.22%, Support: 91.0
+  Wheat__healthy:
+    Precision: 99.18%, Recall: 99.18%, F1-Score: 99.18%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 98.25%, Recall: 99.12%, F1-Score: 98.68%, Support: 113.0
+  macro avg:
+    Precision: 94.28%, Recall: 94.26%, F1-Score: 94.15%, Support: 5350.0
+  weighted avg:
+    Precision: 95.76%, Recall: 95.72%, F1-Score: 95.67%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.1490
+准确率 (Accuracy): 94.91%
+精确率 - Macro: 93.72%
+召回率 - Macro: 93.43%
+F1 分数 - Macro: 93.34%
+精确率 - Weighted: 95.13%
+召回率 - Weighted: 94.91%
+F1 分数 - Weighted: 94.88%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 18 训练报告
+================================================================================
+学习率：0.000010
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.1071
+准确率 (Accuracy): 96.36%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.1311
+准确率 (Accuracy): 95.74%
+精确率 - Macro: 94.27%
+召回率 - Macro: 94.30%
+F1 分数 - Macro: 94.25%
+精确率 - Weighted: 95.81%
+召回率 - Weighted: 95.74%
+F1 分数 - Weighted: 95.75%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 98.41%, Recall: 100.00%, F1-Score: 99.20%, Support: 62.0
+  Apple__healthy:
+    Precision: 99.39%, Recall: 99.39%, F1-Score: 99.39%, Support: 164.0
+  Apple__rust:
+    Precision: 95.83%, Recall: 92.00%, F1-Score: 93.88%, Support: 50.0
+  Apple__scab:
+    Precision: 95.52%, Recall: 91.43%, F1-Score: 93.43%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 58.33%, Recall: 56.00%, F1-Score: 57.14%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 70.45%, Recall: 56.36%, F1-Score: 62.63%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 54.90%, Recall: 56.00%, F1-Score: 55.45%, Support: 50.0
+  Cassava__healthy:
+    Precision: 48.72%, Recall: 56.72%, F1-Score: 52.41%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 67.31%, Recall: 70.00%, F1-Score: 68.63%, Support: 50.0
+  Cherry__healthy:
+    Precision: 95.56%, Recall: 95.56%, F1-Score: 95.56%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 105.0
+  Chili__healthy:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 97.87%, Recall: 92.00%, F1-Score: 94.85%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Chili__whitefly:
+    Precision: 92.59%, Recall: 100.00%, F1-Score: 96.15%, Support: 50.0
+  Chili__yellowish:
+    Precision: 92.45%, Recall: 98.00%, F1-Score: 95.15%, Support: 50.0
+  Corn__common_rust:
+    Precision: 96.90%, Recall: 96.15%, F1-Score: 96.53%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 95.37%, Recall: 94.50%, F1-Score: 94.93%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 91.87%, Recall: 92.62%, F1-Score: 92.24%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Grape__black_measles:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 138.0
+  Grape__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 200.0
+  Grape__healthy:
+    Precision: 97.92%, Recall: 94.00%, F1-Score: 95.92%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Potato__early_blight:
+    Precision: 95.33%, Recall: 93.58%, F1-Score: 94.44%, Support: 109.0
+  Potato__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Potato__late_blight:
+    Precision: 96.40%, Recall: 98.17%, F1-Score: 97.27%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 91.83%, Recall: 95.50%, F1-Score: 93.63%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 96.79%, Recall: 90.50%, F1-Score: 93.54%, Support: 200.0
+  Soybean__healthy:
+    Precision: 95.63%, Recall: 98.50%, F1-Score: 97.04%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 98.21%, Recall: 100.00%, F1-Score: 99.10%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 96.62%, Recall: 100.00%, F1-Score: 98.28%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 100.0
+  Tomato__healthy:
+    Precision: 98.14%, Recall: 99.37%, F1-Score: 98.75%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 98.94%, Recall: 97.91%, F1-Score: 98.42%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 94.12%, Recall: 96.00%, F1-Score: 95.05%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 100.00%, Recall: 97.75%, F1-Score: 98.86%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 100.00%, Recall: 98.20%, F1-Score: 99.09%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 99.28%, Recall: 98.57%, F1-Score: 98.92%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 100.00%, Recall: 97.50%, F1-Score: 98.73%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 95.70%, Recall: 97.80%, F1-Score: 96.74%, Support: 91.0
+  Wheat__healthy:
+    Precision: 100.00%, Recall: 99.18%, F1-Score: 99.59%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 100.00%, Recall: 97.35%, F1-Score: 98.65%, Support: 113.0
+  macro avg:
+    Precision: 94.27%, Recall: 94.30%, F1-Score: 94.25%, Support: 5350.0
+  weighted avg:
+    Precision: 95.81%, Recall: 95.74%, F1-Score: 95.75%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.1418
+准确率 (Accuracy): 95.19%
+精确率 - Macro: 93.90%
+召回率 - Macro: 93.80%
+F1 分数 - Macro: 93.71%
+精确率 - Weighted: 95.36%
+召回率 - Weighted: 95.19%
+F1 分数 - Weighted: 95.19%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 19 训练报告
+================================================================================
+学习率：0.000005
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.0994
+准确率 (Accuracy): 96.63%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.1331
+准确率 (Accuracy): 95.79%
+精确率 - Macro: 94.26%
+召回率 - Macro: 94.36%
+F1 分数 - Macro: 94.27%
+精确率 - Weighted: 95.83%
+召回率 - Weighted: 95.79%
+F1 分数 - Weighted: 95.78%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 62.0
+  Apple__healthy:
+    Precision: 98.79%, Recall: 99.39%, F1-Score: 99.09%, Support: 164.0
+  Apple__rust:
+    Precision: 93.88%, Recall: 92.00%, F1-Score: 92.93%, Support: 50.0
+  Apple__scab:
+    Precision: 95.52%, Recall: 91.43%, F1-Score: 93.43%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 61.22%, Recall: 60.00%, F1-Score: 60.61%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 73.81%, Recall: 56.36%, F1-Score: 63.92%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 55.77%, Recall: 58.00%, F1-Score: 56.86%, Support: 50.0
+  Cassava__healthy:
+    Precision: 52.86%, Recall: 55.22%, F1-Score: 54.01%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 67.92%, Recall: 72.00%, F1-Score: 69.90%, Support: 50.0
+  Cherry__healthy:
+    Precision: 93.48%, Recall: 95.56%, F1-Score: 94.51%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 105.0
+  Chili__healthy:
+    Precision: 92.59%, Recall: 100.00%, F1-Score: 96.15%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 97.83%, Recall: 90.00%, F1-Score: 93.75%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Chili__whitefly:
+    Precision: 89.29%, Recall: 100.00%, F1-Score: 94.34%, Support: 50.0
+  Chili__yellowish:
+    Precision: 92.45%, Recall: 98.00%, F1-Score: 95.15%, Support: 50.0
+  Corn__common_rust:
+    Precision: 97.62%, Recall: 94.62%, F1-Score: 96.09%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 95.37%, Recall: 94.50%, F1-Score: 94.93%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 89.06%, Recall: 93.44%, F1-Score: 91.20%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Grape__black_measles:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 138.0
+  Grape__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 200.0
+  Grape__healthy:
+    Precision: 97.92%, Recall: 94.00%, F1-Score: 95.92%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 100.00%, Recall: 98.00%, F1-Score: 98.99%, Support: 50.0
+  Potato__early_blight:
+    Precision: 97.14%, Recall: 93.58%, F1-Score: 95.33%, Support: 109.0
+  Potato__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Potato__late_blight:
+    Precision: 93.86%, Recall: 98.17%, F1-Score: 95.96%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 93.14%, Recall: 95.00%, F1-Score: 94.06%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 96.35%, Recall: 92.50%, F1-Score: 94.39%, Support: 200.0
+  Soybean__healthy:
+    Precision: 96.57%, Recall: 98.50%, F1-Score: 97.52%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 98.21%, Recall: 100.00%, F1-Score: 99.10%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 97.56%, Recall: 100.00%, F1-Score: 98.77%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 98.00%, Recall: 98.00%, F1-Score: 98.00%, Support: 100.0
+  Tomato__healthy:
+    Precision: 99.37%, Recall: 98.74%, F1-Score: 99.05%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 98.95%, Recall: 98.95%, F1-Score: 98.95%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 98.96%, Recall: 100.00%, F1-Score: 99.48%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 94.12%, Recall: 96.00%, F1-Score: 95.05%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 100.00%, Recall: 97.75%, F1-Score: 98.86%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 98.80%, Recall: 98.20%, F1-Score: 98.50%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 99.26%, Recall: 96.43%, F1-Score: 97.83%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 100.00%, Recall: 97.50%, F1-Score: 98.73%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 94.68%, Recall: 97.80%, F1-Score: 96.22%, Support: 91.0
+  Wheat__healthy:
+    Precision: 100.00%, Recall: 99.18%, F1-Score: 99.59%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 100.00%, Recall: 99.12%, F1-Score: 99.56%, Support: 113.0
+  macro avg:
+    Precision: 94.26%, Recall: 94.36%, F1-Score: 94.27%, Support: 5350.0
+  weighted avg:
+    Precision: 95.83%, Recall: 95.79%, F1-Score: 95.78%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.1406
+准确率 (Accuracy): 95.45%
+精确率 - Macro: 94.04%
+召回率 - Macro: 93.91%
+F1 分数 - Macro: 93.85%
+精确率 - Weighted: 95.57%
+召回率 - Weighted: 95.45%
+F1 分数 - Weighted: 95.43%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+Epoch 20 训练报告
+================================================================================
+学习率：0.000002
+
+--------------------------------------------------------------------------------
+【训练集】
+--------------------------------------------------------------------------------
+样本数量：42899
+损失 (Loss): 0.0939
+准确率 (Accuracy): 96.81%
+
+--------------------------------------------------------------------------------
+【验证集】
+--------------------------------------------------------------------------------
+样本数量：5350
+损失 (Loss): 0.1302
+准确率 (Accuracy): 95.98%
+精确率 - Macro: 94.32%
+召回率 - Macro: 94.57%
+F1 分数 - Macro: 94.41%
+精确率 - Weighted: 95.98%
+召回率 - Weighted: 95.98%
+F1 分数 - Weighted: 95.96%
+
+各类别详细指标:
+  Apple__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 62.0
+  Apple__healthy:
+    Precision: 99.39%, Recall: 99.39%, F1-Score: 99.39%, Support: 164.0
+  Apple__rust:
+    Precision: 92.00%, Recall: 92.00%, F1-Score: 92.00%, Support: 50.0
+  Apple__scab:
+    Precision: 95.59%, Recall: 92.86%, F1-Score: 94.20%, Support: 70.0
+  Cassava__bacterial_blight:
+    Precision: 59.18%, Recall: 58.00%, F1-Score: 58.59%, Support: 50.0
+  Cassava__brown_streak_disease:
+    Precision: 66.67%, Recall: 61.82%, F1-Score: 64.15%, Support: 55.0
+  Cassava__green_mottle:
+    Precision: 60.00%, Recall: 54.00%, F1-Score: 56.84%, Support: 50.0
+  Cassava__healthy:
+    Precision: 53.23%, Recall: 49.25%, F1-Score: 51.16%, Support: 67.0
+  Cassava__mosaic_disease:
+    Precision: 63.49%, Recall: 80.00%, F1-Score: 70.80%, Support: 50.0
+  Cherry__healthy:
+    Precision: 95.56%, Recall: 95.56%, F1-Score: 95.56%, Support: 90.0
+  Cherry__powdery_mildew:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 105.0
+  Chili__healthy:
+    Precision: 94.34%, Recall: 100.00%, F1-Score: 97.09%, Support: 50.0
+  Chili__leaf curl:
+    Precision: 97.87%, Recall: 92.00%, F1-Score: 94.85%, Support: 50.0
+  Chili__leaf spot:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Chili__whitefly:
+    Precision: 90.91%, Recall: 100.00%, F1-Score: 95.24%, Support: 50.0
+  Chili__yellowish:
+    Precision: 92.45%, Recall: 98.00%, F1-Score: 95.15%, Support: 50.0
+  Corn__common_rust:
+    Precision: 96.12%, Recall: 95.38%, F1-Score: 95.75%, Support: 130.0
+  Corn__gray_leaf_spot:
+    Precision: 95.41%, Recall: 95.41%, F1-Score: 95.41%, Support: 109.0
+  Corn__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 116.0
+  Corn__northern_leaf_blight:
+    Precision: 92.68%, Recall: 93.44%, F1-Score: 93.06%, Support: 122.0
+  Cucumber__diseased:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Cucumber__healthy:
+    Precision: 96.00%, Recall: 96.00%, F1-Score: 96.00%, Support: 50.0
+  Grape__black_measles:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 138.0
+  Grape__black_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 200.0
+  Grape__healthy:
+    Precision: 97.92%, Recall: 94.00%, F1-Score: 95.92%, Support: 50.0
+  Grape__leaf_blight_(isariopsis_leaf_spot):
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 88.0
+  Pomegranate__diseased:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Pomegranate__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Potato__early_blight:
+    Precision: 97.14%, Recall: 93.58%, F1-Score: 95.33%, Support: 109.0
+  Potato__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Potato__late_blight:
+    Precision: 95.54%, Recall: 98.17%, F1-Score: 96.83%, Support: 109.0
+  Soybean__caterpillar:
+    Precision: 93.24%, Recall: 96.50%, F1-Score: 94.84%, Support: 200.0
+  Soybean__diabrotica_speciosa:
+    Precision: 96.89%, Recall: 93.50%, F1-Score: 95.17%, Support: 200.0
+  Soybean__healthy:
+    Precision: 97.51%, Recall: 98.00%, F1-Score: 97.76%, Support: 200.0
+  Strawberry___leaf_scorch:
+    Precision: 98.21%, Recall: 100.00%, F1-Score: 99.10%, Support: 110.0
+  Strawberry__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__bacterial_blight:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Sugarcane__healthy:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__red_rot:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__red_stripe:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Sugarcane__rust:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 50.0
+  Tomato__bacterial_spot:
+    Precision: 97.56%, Recall: 100.00%, F1-Score: 98.77%, Support: 200.0
+  Tomato__early_blight:
+    Precision: 97.03%, Recall: 98.00%, F1-Score: 97.51%, Support: 100.0
+  Tomato__healthy:
+    Precision: 98.75%, Recall: 99.37%, F1-Score: 99.06%, Support: 159.0
+  Tomato__late_blight:
+    Precision: 98.94%, Recall: 97.91%, F1-Score: 98.42%, Support: 191.0
+  Tomato__leaf_mold:
+    Precision: 100.00%, Recall: 100.00%, F1-Score: 100.00%, Support: 95.0
+  Tomato__mosaic_virus:
+    Precision: 94.12%, Recall: 96.00%, F1-Score: 95.05%, Support: 50.0
+  Tomato__septoria_leaf_spot:
+    Precision: 100.00%, Recall: 97.75%, F1-Score: 98.86%, Support: 178.0
+  Tomato__spider_mites_(two_spotted_spider_mite):
+    Precision: 100.00%, Recall: 98.20%, F1-Score: 99.09%, Support: 167.0
+  Tomato__target_spot:
+    Precision: 99.29%, Recall: 99.29%, F1-Score: 99.29%, Support: 140.0
+  Tomato__yellow_leaf_curl_virus:
+    Precision: 100.00%, Recall: 97.50%, F1-Score: 98.73%, Support: 200.0
+  Wheat__brown_rust:
+    Precision: 94.68%, Recall: 97.80%, F1-Score: 96.22%, Support: 91.0
+  Wheat__healthy:
+    Precision: 100.00%, Recall: 99.18%, F1-Score: 99.59%, Support: 122.0
+  Wheat__septoria:
+    Precision: 98.04%, Recall: 100.00%, F1-Score: 99.01%, Support: 50.0
+  Wheat__yellow_rust:
+    Precision: 100.00%, Recall: 97.35%, F1-Score: 98.65%, Support: 113.0
+  macro avg:
+    Precision: 94.32%, Recall: 94.57%, F1-Score: 94.41%, Support: 5350.0
+  weighted avg:
+    Precision: 95.98%, Recall: 95.98%, F1-Score: 95.96%, Support: 5350.0
+
+--------------------------------------------------------------------------------
+【测试集】
+--------------------------------------------------------------------------------
+样本数量：5388
+损失 (Loss): 0.1388
+准确率 (Accuracy): 95.42%
+精确率 - Macro: 94.02%
+召回率 - Macro: 94.00%
+F1 分数 - Macro: 93.89%
+精确率 - Weighted: 95.56%
+召回率 - Weighted: 95.42%
+F1 分数 - Weighted: 95.42%
+
+--------------------------------------------------------------------------------
+✓ 已保存检查点：checkpoints_large_ft/best_model.pth
+--------------------------------------------------------------------------------
+
+================================================================================
+训练总结
+================================================================================
+结束时间：2026-03-17 14:34:08
+总耗时：727.8 分钟
+训练轮数：20
+最佳验证准确率：95.98%
+最终测试准确率：95.42%
+================================================================================
